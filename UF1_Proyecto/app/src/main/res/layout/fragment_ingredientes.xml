@@ -6,10 +6,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/beige_crema"
     >
 
     <ImageView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="276dp"
         android:src="@drawable/reposteriabuena"
         android:layout_margin="20dp"
@@ -39,7 +40,7 @@
                 android:id="@+id/checkBoxAvena"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/avena"/>
+                android:text="@string/limon"/>
 
             <CheckBox
                 android:textSize="18dp"
@@ -97,14 +98,14 @@
                 android:id="@+id/checkBoxMiel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/miel"/>
+                android:text="@string/fresas"/>
             <CheckBox
                 android:textSize="18dp"
                 android:layout_marginLeft="20dp"
-                android:id="@+id/checkBoxAceite"
+                android:id="@+id/checkBoxArandanos"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/aceite"/>
+                android:text="@string/arandanos"/>
 
         </LinearLayout>
     </ScrollView>

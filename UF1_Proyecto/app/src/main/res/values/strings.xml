@@ -10,7 +10,7 @@
     //texto del fragmento Ingredientes
     <string name="seleccionIngredientes">Selecciona los ingredientes:</string>
 
-    <string name="avena">Avena</string>
+    <string name="limon">Limon</string>
     <string name="huevos">Huevos</string>
     <string name="choco">Chocolate</string>
     <string name="mantequilla">Mantequilla</string>
@@ -18,8 +18,8 @@
     <string name="vainilla">Vainilla</string>
     <string name="frutosSecos">Frutos secos</string>
     <string name="leche">Leche</string>
-    <string name="miel">Miel</string>
-    <string name="aceite">Aceite</string>
+    <string name="fresas">Fresas</string>
+    <string name="arandanos">Arandanos</string>
 
 
 
