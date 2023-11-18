@@ -1,18 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:orientation="vertical"
+    android:background="@color/beige_crema"
+    >
 
-    <TextView
+    <ImageView
+        android:id="@+id/imagenPrincipal"
         android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/tastetriallogo2"></ImageView>
+    <TextView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="@string/mensajeInicial"
+       android:layout_marginTop="10dp"
+        android:layout_marginRight="50sp"
+        android:layout_marginLeft="50sp"
+        android:textAlignment="center"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:textColor="@color/marronGalleta"
+        >
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </TextView>
+
+    <Button
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="@color/azulCeleste"
+        android:text="@string/botonIngredientes"
+        android:textColor="@color/marronGalleta"></Button>
+
+    <Button
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@color/azulCeleste"
+        android:text="@string/botonCategorias"
+        android:textColor="@color/marronGalleta"></Button>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:background="@color/red"
+        android:text="@string/botonSalir"
+        android:textColor="@color/white"
+
+        ></Button>
+
+
+</LinearLayout>

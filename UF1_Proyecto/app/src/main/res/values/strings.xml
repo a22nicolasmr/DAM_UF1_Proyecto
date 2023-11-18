@@ -1,3 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">UF1_Proyecto</string>
+    <string name="app_name">TasteTrial</string>
+    <string name="mensajeInicial">¿Cómo quieres buscar hoy?</string>
+    <string name="botonIngredientes">Ingredientes</string>
+    <string name="botonCategorias">Categorías</string>
+    <string name="botonSalir">Salir</string>
 </resources>

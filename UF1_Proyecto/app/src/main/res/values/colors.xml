@@ -2,4 +2,26 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="skyBlue">#ADD8E6</color>
+    <color name="waterGreen">#7FFFD4</color>
+    <color name="pastel_suave">#F0E8E0</color>
+    <color name="beige_crema">#F5F5DC</color>
+
+    <color name="gris">#A9A9A9</color>
+    <color name="grisOscuro">#696969</color>
+    <color name="indigoOscuro">#4B0082</color>
+
+    <!-- Tonos cálidos -->
+    <color name="naranja">#FFA500</color>
+    <color name="amarilloDorado">#FFD700</color>
+    <color name="marronOscuro">#8B4513</color>
+
+    <!-- Tonos suaves o pastel -->
+    <color name="azulCeleste">#87CEEB</color>
+    <color name="rosaClaro">#FFB6C1</color>
+    <color name="amarilloSuave">#F0E68C</color>
+
+    <color name="marronGalleta">#4c2f0c</color>
+
+    <color name="red">#FF0000</color>
 </resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TasteTrial</string>
+    <string name="mensajeInicial">How do you want to search recipes today?</string>
+    <string name="botonIngredientes">Ingredients</string>
+    <string name="botonCategorias">Categories</string>
+    <string name="botonSalir">Exit</string>
+</resources>
