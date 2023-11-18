@@ -1,8 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    //texto de la pantalla principal
     <string name="app_name">TasteTrial</string>
     <string name="mensajeInicial">¿Cómo quieres buscar hoy?</string>
     <string name="botonIngredientes">Ingredientes</string>
     <string name="botonCategorias">Categorías</string>
     <string name="botonSalir">Salir</string>
+
+    //texto del fragmento Ingredientes
+    <string name="seleccionIngredientes">Selecciona los ingredientes:</string>
+
+    <string name="avena">Avena</string>
+    <string name="huevos">Huevos</string>
+    <string name="choco">Chocolate</string>
+    <string name="mantequilla">Mantequilla</string>
+    <string name="azucar">Azucar</string>
+    <string name="vainilla">Vainilla</string>
+    <string name="frutosSecos">Frutos secos</string>
+    <string name="leche">Leche</string>
+    <string name="miel">Miel</string>
+    <string name="aceite">Aceite</string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
