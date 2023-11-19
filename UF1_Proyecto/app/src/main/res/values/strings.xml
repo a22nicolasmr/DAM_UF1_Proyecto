@@ -21,6 +21,16 @@
     <string name="fresas">Fresas</string>
     <string name="arandanos">Arandanos</string>
 
+    //texto fragmento de categorias
+    <string name="seleccionCategorias">Selecciona las categorias:</string>
+
+    <string name="altoProteina">Alto en proteína</string>
+    <string name="bajoCalorias">Bajo en calorías</string>
+    <string name="sinLactosa">Sin lactosa</string>
+    <string name="horneado">Horneado</string>
+    <string name="vegano">Vegano</string>
+    <string name="sinGluten">Sin gluten</string>
+    <string name="frutas">Con frutas</string>
 
 
     <!-- TODO: Remove or change this placeholder text -->

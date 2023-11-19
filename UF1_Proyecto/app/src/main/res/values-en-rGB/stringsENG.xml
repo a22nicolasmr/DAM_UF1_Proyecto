@@ -20,4 +20,15 @@
     <string name="leche">Milk</string>
     <string name="fresas">Strawberries</string>
     <string name="arandanos">Blueberries</string>
+
+    //texto fragmento de categorias
+    <string name="seleccionCategorias">Select the categories:</string>
+
+    <string name="altoProteina">Hight protein</string>
+    <string name="bajoCalorias">Low calories</string>
+    <string name="sinLactosa">Lactose-free</string>
+    <string name="horneado">Baked</string>
+    <string name="vegano">Vegan</string>
+    <string name="sinGluten">Without gluten</string>
+    <string name="frutas">With fruits</string>
 </resources>

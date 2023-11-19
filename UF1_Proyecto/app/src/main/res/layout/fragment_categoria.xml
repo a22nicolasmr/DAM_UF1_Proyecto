@@ -9,17 +9,18 @@
     android:background="@color/beige_crema"
     >
 
+
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="276dp"
-        android:src="@drawable/reposteriabuena"
+        android:src="@drawable/dulces2"
         android:layout_margin="20dp"
         >
     </ImageView>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/seleccionIngredientes"
+        android:text="@string/seleccionCategorias"
         android:textStyle="bold"
         android:layout_gravity="center_horizontal"
         android:textSize="25dp"
@@ -37,79 +38,55 @@
             <CheckBox
                 android:textSize="18dp"
                 android:layout_marginLeft="20dp"
-                android:id="@+id/checkBoxLimon"
+                android:id="@+id/checkBoxAltoProteina"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/limon"/>
+                android:text="@string/altoProteina"/>
 
             <CheckBox
                 android:textSize="18dp"
                 android:layout_marginLeft="20dp"
-                android:id="@+id/checkBoxHuevos"
+                android:id="@+id/checkBoxBajoCalorias"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/huevos"/>
+                android:text="@string/bajoCalorias"/>
 
             <CheckBox
                 android:textSize="18dp"
                 android:layout_marginLeft="20dp"
-                android:id="@+id/checkBoxChoco"
+                android:id="@+id/checkBoxSinLactosa"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/choco"/>
+                android:text="@string/sinLactosa"/>
             <CheckBox
                 android:textSize="18dp"
                 android:layout_marginLeft="20dp"
-                android:id="@+id/checkBoxMantequilla"
+                android:id="@+id/checkBoxHorneado"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/mantequilla"/>
+                android:text="@string/horneado"/>
             <CheckBox
                 android:textSize="18dp"
                 android:layout_marginLeft="20dp"
-                android:id="@+id/checkBoxAzucar"
+                android:id="@+id/checkBoxVegano"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/azucar"/>
+                android:text="@string/vegano"/>
             <CheckBox
                 android:textSize="18dp"
                 android:layout_marginLeft="20dp"
-                android:id="@+id/checkBoxVainilla"
+                android:id="@+id/checkBoxSinGluten"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/vainilla"/>
+                android:text="@string/sinGluten"/>
             <CheckBox
                 android:textSize="18dp"
                 android:layout_marginLeft="20dp"
-                android:id="@+id/checkBoxFrutosSecos"
+                android:id="@+id/checkBoxFrutas"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/frutosSecos"/>
-            <CheckBox
-                android:textSize="18dp"
-                android:layout_marginLeft="20dp"
-                android:id="@+id/checkBoxLeche"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/leche"/>
-            <CheckBox
-                android:textSize="18dp"
-                android:layout_marginLeft="20dp"
-                android:id="@+id/checkBoxMiel"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/fresas"/>
-            <CheckBox
-                android:textSize="18dp"
-                android:layout_marginLeft="20dp"
-                android:id="@+id/checkBoxArandanos"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/arandanos"/>
-
-
+                android:text="@string/frutas"/>
         </LinearLayout>
-
     </ScrollView>
     <androidx.fragment.app.FragmentContainerView
         android:layout_width="wrap_content"
