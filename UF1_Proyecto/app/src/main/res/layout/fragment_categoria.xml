@@ -86,6 +86,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/frutas"/>
+            <Button
+                android:id="@+id/botonBuscarCategorias"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/botonBuscar"
+                android:background="@color/marronGalleta"
+                />
         </LinearLayout>
     </ScrollView>
     <androidx.fragment.app.FragmentContainerView

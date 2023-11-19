@@ -57,6 +57,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/choco"/>
+
             <CheckBox
                 android:textSize="18dp"
                 android:layout_marginLeft="20dp"
@@ -64,6 +65,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mantequilla"/>
+
             <CheckBox
                 android:textSize="18dp"
                 android:layout_marginLeft="20dp"
@@ -71,6 +73,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/azucar"/>
+
             <CheckBox
                 android:textSize="18dp"
                 android:layout_marginLeft="20dp"
@@ -78,6 +81,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/vainilla"/>
+
             <CheckBox
                 android:textSize="18dp"
                 android:layout_marginLeft="20dp"
@@ -85,6 +89,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/frutosSecos"/>
+
             <CheckBox
                 android:textSize="18dp"
                 android:layout_marginLeft="20dp"
@@ -92,6 +97,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/leche"/>
+
             <CheckBox
                 android:textSize="18dp"
                 android:layout_marginLeft="20dp"
@@ -99,6 +105,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/fresas"/>
+
             <CheckBox
                 android:textSize="18dp"
                 android:layout_marginLeft="20dp"
@@ -107,6 +114,22 @@
                 android:layout_height="wrap_content"
                 android:text="@string/arandanos"/>
 
+            <CheckBox
+                android:textSize="18dp"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/checkBoxAvena"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/avena"/>
+
+            <Button
+                android:id="@+id/botonBuscarIngredientes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/botonBuscar"
+                android:background="@color/marronGalleta"
+                />
 
         </LinearLayout>
 

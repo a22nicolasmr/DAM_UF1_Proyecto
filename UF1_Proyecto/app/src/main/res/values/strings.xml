@@ -20,6 +20,7 @@
     <string name="leche">Leche</string>
     <string name="fresas">Fresas</string>
     <string name="arandanos">Arandanos</string>
+    <string name="avena">Avena</string>
 
     //texto fragmento de categorias
     <string name="seleccionCategorias">Selecciona las categorias:</string>
@@ -32,6 +33,8 @@
     <string name="sinGluten">Sin gluten</string>
     <string name="frutas">Con frutas</string>
 
+    //boton buscar
+    <string name="botonBuscar">Buscar</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
