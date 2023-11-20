@@ -39,7 +39,7 @@
                 android:layout_marginLeft="20dp"
                 android:id="@+id/checkBoxLimon"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="48dp"
                 android:text="@string/limon"/>
 
             <CheckBox
@@ -47,7 +47,7 @@
                 android:layout_marginLeft="20dp"
                 android:id="@+id/checkBoxHuevos"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="48dp"
                 android:text="@string/huevos"/>
 
             <CheckBox
@@ -55,7 +55,7 @@
                 android:layout_marginLeft="20dp"
                 android:id="@+id/checkBoxChoco"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="48dp"
                 android:text="@string/choco"/>
 
             <CheckBox
@@ -63,7 +63,7 @@
                 android:layout_marginLeft="20dp"
                 android:id="@+id/checkBoxMantequilla"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="48dp"
                 android:text="@string/mantequilla"/>
 
             <CheckBox
@@ -71,7 +71,7 @@
                 android:layout_marginLeft="20dp"
                 android:id="@+id/checkBoxAzucar"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="48dp"
                 android:text="@string/azucar"/>
 
             <CheckBox
@@ -79,7 +79,7 @@
                 android:layout_marginLeft="20dp"
                 android:id="@+id/checkBoxVainilla"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="48dp"
                 android:text="@string/vainilla"/>
 
             <CheckBox
@@ -87,7 +87,7 @@
                 android:layout_marginLeft="20dp"
                 android:id="@+id/checkBoxFrutosSecos"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="48dp"
                 android:text="@string/frutosSecos"/>
 
             <CheckBox
@@ -95,7 +95,7 @@
                 android:layout_marginLeft="20dp"
                 android:id="@+id/checkBoxLeche"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="48dp"
                 android:text="@string/leche"/>
 
             <CheckBox
@@ -103,7 +103,7 @@
                 android:layout_marginLeft="20dp"
                 android:id="@+id/checkBoxMiel"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="48dp"
                 android:text="@string/fresas"/>
 
             <CheckBox
@@ -111,7 +111,7 @@
                 android:layout_marginLeft="20dp"
                 android:id="@+id/checkBoxArandanos"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="48dp"
                 android:text="@string/arandanos"/>
 
             <CheckBox
@@ -119,7 +119,7 @@
                 android:layout_marginLeft="20dp"
                 android:id="@+id/checkBoxAvena"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="48dp"
                 android:text="@string/avena"/>
 
             <Button

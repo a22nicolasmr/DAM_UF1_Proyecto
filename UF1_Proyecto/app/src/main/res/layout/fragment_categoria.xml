@@ -40,7 +40,7 @@
                 android:layout_marginLeft="20dp"
                 android:id="@+id/checkBoxAltoProteina"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="48dp"
                 android:text="@string/altoProteina"/>
 
             <CheckBox
@@ -48,7 +48,7 @@
                 android:layout_marginLeft="20dp"
                 android:id="@+id/checkBoxBajoCalorias"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="48dp"
                 android:text="@string/bajoCalorias"/>
 
             <CheckBox
@@ -56,35 +56,35 @@
                 android:layout_marginLeft="20dp"
                 android:id="@+id/checkBoxSinLactosa"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="48dp"
                 android:text="@string/sinLactosa"/>
             <CheckBox
                 android:textSize="18dp"
                 android:layout_marginLeft="20dp"
                 android:id="@+id/checkBoxHorneado"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="48dp"
                 android:text="@string/horneado"/>
             <CheckBox
                 android:textSize="18dp"
                 android:layout_marginLeft="20dp"
                 android:id="@+id/checkBoxVegano"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="48dp"
                 android:text="@string/vegano"/>
             <CheckBox
                 android:textSize="18dp"
                 android:layout_marginLeft="20dp"
                 android:id="@+id/checkBoxSinGluten"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="48dp"
                 android:text="@string/sinGluten"/>
             <CheckBox
                 android:textSize="18dp"
                 android:layout_marginLeft="20dp"
                 android:id="@+id/checkBoxFrutas"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="48dp"
                 android:text="@string/frutas"/>
             <Button
                 android:id="@+id/botonBuscarCategorias"
@@ -92,6 +92,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:text="@string/botonBuscar"
+                android:textColor="@color/white"
                 android:background="@color/marronGalleta"
                 />
         </LinearLayout>
