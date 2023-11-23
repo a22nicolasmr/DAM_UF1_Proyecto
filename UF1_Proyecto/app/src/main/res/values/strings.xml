@@ -36,6 +36,11 @@
     //boton buscar
     <string name="botonBuscar">Buscar</string>
 
+
+    //Recetas
+
+    //galletas de avena con frutos secos
+    <string name="galletasAvena">Galletas de avena con frutos secos</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
