@@ -43,6 +43,7 @@
     <string name="galletasAvena">Galletas de avena con frutos secos</string>
     <string name="tortaChoc">Tarta vegana de chocolate</string>
     <string name="muffinsLimonAran">Muffins de limón y arándanos</string>
+    <string name="heladoVainilla">Helado de vainilla con salsa de chocolate</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

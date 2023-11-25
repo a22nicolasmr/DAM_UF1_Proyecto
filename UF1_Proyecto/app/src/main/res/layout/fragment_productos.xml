@@ -79,7 +79,24 @@
                     android:layout_height="18dp"
                     android:text="@string/muffinsLimonAran" />
                 </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/grupoHeladoVainilla"
+                    >
+                    <ImageView
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="222dp"
+                        android:layout_height="160dp"
+                        android:src="@drawable/helado"/>
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="222dp"
+                        android:layout_height="18dp"
+                        android:text="@string/heladoVainilla" />
+                </LinearLayout>
             </LinearLayout>
-
     </ScrollView>
 </LinearLayout>
