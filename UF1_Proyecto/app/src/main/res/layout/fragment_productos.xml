@@ -11,57 +11,75 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/grupoGalletasFrutosSecos"
+                    >
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="20sp">
+                    <ImageView
+                        android:id="@+id/galletasFrutosSecos"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="222dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/galletasavena">
+                    </ImageView>
 
-            <TextView
-                android:id="@+id/textViewGalletasAvena"
-                android:layout_width="215dp"
-                android:layout_height="31dp"
-                android:text="@string/galletasAvena"
-                android:textSize="13dp"
-                android:textStyle="bold"
-                app:layout_constraintTop_toTopOf="parent"
-                tools:ignore="MissingConstraints"
-                tools:layout_editor_absoluteX="99dp"
-                tools:layout_editor_absoluteY="0dp" />
+                    <TextView
+                        android:id="@+id/textoGalletasFrutosSecos"
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="222dp"
+                        android:layout_height="16dp"
+                        android:text="@string/galletasAvena"
+                        >
+                    </TextView>
+                </LinearLayout>
 
-            <ImageView
-                android:id="@+id/imagenGalletasAvena"
-                android:layout_width="215dp"
-                android:layout_height="168dp"
-                android:src="@drawable/galletasavena"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.0" />
-            <TextView
-                android:id="@+id/textViewMuffins"
-                android:layout_width="215dp"
-                android:layout_height="31dp"
-                android:text="@string/galletasAvena"
-                android:textSize="13dp"
-                android:textStyle="bold"
-                app:layout_constraintTop_toTopOf="parent"
-                tools:ignore="MissingConstraints"
-                tools:layout_editor_absoluteX="99dp"
-                tools:layout_editor_absoluteY="0dp" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/grupoTortaChoc"
+                    >
+                    <ImageView
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="222dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/tortavegchoc"/>
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="222dp"
+                        android:layout_height="18dp"
+                        android:text="@string/tortaChoc" />
+                </LinearLayout>
 
-            <ImageView
-                android:id="@+id/imagenMuffins"
-                android:layout_width="215dp"
-                android:layout_height="168dp"
-                android:src="@drawable/muffinslimonarand"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.0" />
-        </androidx.constraintlayout.widget.ConstraintLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/grupoMuffinsLimonAran"
+                    >
+                <ImageView
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="222dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/muffinslimonarand"/>
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="222dp"
+                    android:layout_height="18dp"
+                    android:text="@string/muffinsLimonAran" />
+                </LinearLayout>
+            </LinearLayout>
 
     </ScrollView>
 </LinearLayout>
