@@ -35,4 +35,18 @@
 
     //boton buscar
     <string name="botonBuscar">Buscar</string>
+
+    //recetas
+    <string name="galletasAvena">Oatmeal cookies with nuts</string>
+    <string name="tortaChoc">Vegan chocolate cake</string>
+    <string name="muffinsLimonAran">Lemon and blueberry muffins</string>
+    <string name="barritasCacahuete">Peanut and chocolate bars</string>
+    <string name="ensalada">Fruit salad with honey and lemon</string>
+    <string name="tartaLimonFrutos">Lemon and dried fruit tart</string>
+    <string name="mousseLimonAvena">Lemon mousse with oat base</string>
+    <string name="browniesChocNueces">Chocolate and walnut brownies</string>
+    <string name="galletasLimonAvena">Lemon and oat cookies</string>
+    <string name="galletasAvenaPasas">Oat and raisin cookies</string>
+    <string name="mousseChocVeg">Vegan chocolate mousse</string>
+
 </resources>

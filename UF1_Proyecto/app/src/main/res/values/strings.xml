@@ -39,11 +39,17 @@
 
     //Recetas
 
-    //galletas de avena con frutos secos
     <string name="galletasAvena">Galletas de avena con frutos secos</string>
     <string name="tortaChoc">Tarta vegana de chocolate</string>
     <string name="muffinsLimonAran">Muffins de limón y arándanos</string>
-    <string name="heladoVainilla">Helado de vainilla con salsa de chocolate</string>
+    <string name="barritasCacahuete">Barritas de cacahuete y chocolate</string>
+    <string name="ensalada">Ensalada de frutas con miel y limon</string>
+    <string name="tartaLimonFrutos">Tarta de limon y frutos secos</string>
+    <string name="mousseLimonAvena">Mousse de limon con base de avena</string>
+    <string name="browniesChocNueces"> Brownies de chocolate y nueces </string>
+    <string name="galletasLimonAvena">Galletas de limon y avena</string>
+    <string name="galletasAvenaPasas">Galletas de avena y pasas</string>
+    <string name="mousseChocVeg">Mousse de chocolate vegano</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

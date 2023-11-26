@@ -83,19 +83,146 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:id="@+id/grupoHeladoVainilla"
+                    android:id="@+id/grupoBarritaCacahuetesChoc"
                     >
                     <ImageView
                         android:layout_marginTop="20dp"
                         android:layout_marginLeft="20dp"
                         android:layout_width="222dp"
-                        android:layout_height="160dp"
-                        android:src="@drawable/helado"/>
+                        android:layout_height="170dp"
+                        android:src="@drawable/barritasCacahuete"/>
                     <TextView
                         android:layout_marginLeft="20dp"
                         android:layout_width="222dp"
                         android:layout_height="18dp"
-                        android:text="@string/heladoVainilla" />
+                        android:text="@string/barritasCacahuete" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/grupoEnsaladaFrutas"
+                    >
+                    <ImageView
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="222dp"
+                        android:layout_height="170dp"
+                        android:src="@drawable/ensaladaFrutas"/>
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="222dp"
+                        android:layout_height="18dp"
+                        android:text="@string/ensalada" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/grupoTartaLimonFrutos"
+                    >
+                    <ImageView
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="222dp"
+                        android:layout_height="170dp"
+                        android:src="@drawable/tartaLimonFrutosSecos"/>
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="222dp"
+                        android:layout_height="18dp"
+                        android:text="@string/tartaLimonFrutos" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/grupoMousseLimon"
+                    >
+                    <ImageView
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="222dp"
+                        android:layout_height="170dp"
+                        android:src="@drawable/mousseLimonAvena"/>
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="222dp"
+                        android:layout_height="18dp"
+                        android:text="@string/mousseLimonAvena" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/grupoBrowniesChocNueces"
+                    >
+                    <ImageView
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="222dp"
+                        android:layout_height="170dp"
+                        android:src="@drawable/browniesChocNueces"/>
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="222dp"
+                        android:layout_height="18dp"
+                        android:text="@string/browniesChocNueces" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/grupoGalletasLimonAvena"
+                    >
+                    <ImageView
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="222dp"
+                        android:layout_height="170dp"
+                        android:src="@drawable/galletasAvenaLimon"/>
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="222dp"
+                        android:layout_height="18dp"
+                        android:text="@string/galletasLimonAvena" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/grupoGalletasAvenaPasas"
+                    >
+                    <ImageView
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="222dp"
+                        android:layout_height="170dp"
+                        android:src="@drawable/galletasAvenaPasas"/>
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="222dp"
+                        android:layout_height="18dp"
+                        android:text="@string/galletasAvenaPasas" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/grupoMousseChocolateVegano"
+                    >
+                    <ImageView
+
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="222dp"
+                        android:layout_height="170dp"
+                        android:src="@drawable/mousseChocVegano"/>
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="222dp"
+                        android:layout_height="18dp"
+                        android:text="@string/mousseChocVeg" />
                 </LinearLayout>
             </LinearLayout>
     </ScrollView>
