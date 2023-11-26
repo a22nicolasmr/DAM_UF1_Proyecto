@@ -37,7 +37,7 @@
     <string name="botonBuscar">Buscar</string>
 
 
-    //Recetas
+
 
     <string name="galletasAvena">Galletas de avena con frutos secos</string>
     <string name="tortaChoc">Tarta vegana de chocolate</string>
@@ -50,6 +50,221 @@
     <string name="galletasLimonAvena">Galletas de limon y avena</string>
     <string name="galletasAvenaPasas">Galletas de avena y pasas</string>
     <string name="mousseChocVeg">Mousse de chocolate vegano</string>
+
+    //Recetas
+
+    //receta galletas avena
+
+    <!-- Ingredientes -->
+    <string name="ingredientes_titulo"><b>Ingredientes:</b></string>
+    <string name="ingrediente_1">- 1 taza de mantequilla de cacahuate (natural, sin azúcar añadido)</string>
+    <string name="ingrediente_2">- 1/2 taza de miel o sirope de arce</string>
+    <string name="ingrediente_3">- 2 tazas de copos de avena</string>
+    <string name="ingrediente_4">- 1 taza de cacahuetes (pueden ser enteros o picados)</string>
+    <string name="ingrediente_5">- 1/2 taza de chispas o trozos de chocolate (preferiblemente negro o semiamargo)</string>
+    <string name="ingrediente_6">- 1 cucharadita de extracto de vainilla</string>
+    <string name="ingrediente_7">- Una pizca de sal (opcional)</string>
+
+    <!-- Pasos -->
+    <string name="pasos_titulo"><b>Pasos:</b></string>
+    <string name="paso_1">1. En una cacerola a fuego medio, calienta la mantequilla de cacahuate y la miel...</string>
+    <string name="paso_2">2. Retira la mezcla del fuego y agrega los copos de avena, los cacahuetes...</string>
+    <string name="paso_3">3. Mezcla todo hasta que todos los ingredientes estén completamente integrados...</string>
+    <string name="paso_4">4. En un molde cuadrado o rectangular, previamente forrado con papel pergamino...</string>
+    <string name="paso_5">5. Refrigera la mezcla durante al menos 2-3 horas...</string>
+    <string name="paso_6">6. Una vez que esté firme, retira la mezcla del molde y córtala en barras del tamaño deseado...</string>
+
+    <string name="recEnsalada">Ensalada de frutas con miel y limon</string>
+    <string name="recTartaLimonFrutos">Tarta de limon y frutos secos</string>
+    <string name="recMousseLimonAvena">Mousse de limon con base de avena</string>
+    <string name="recBrowniesChocNueces"> Brownies de chocolate y nueces </string>
+    <string name="recGalletasLimonAvena">Galletas de limon y avena</string>
+    <string name="recGalletasAvenaPasas">Galletas de avena y pasas</string>
+    <string name="recMousseChocVeg">Mousse de chocolate vegano</string>
+
+
+    //brownies de chocolate y nueces
+    <!-- Título de la receta -->
+    <string name="brownies_titulo">Brownies de Chocolate y Nueces</string>
+
+    <string name="ingredientes_titulo"><b>Ingredientes:</b></string>
+    <string name="brownie_ingrediente_1">200g de chocolate negro (mínimo 70% de cacao)</string>
+    <string name="brownie_ingrediente_2">150g de mantequilla sin sal</string>
+    <string name="brownie_ingrediente_3">200g de azúcar</string>
+    <string name="brownie_ingrediente_4">100g de nueces troceadas</string>
+
+    <!-- Pasos -->
+    <string name="pasos_titulo"><b>Pasos:</b></string>
+    <string name="brownie_paso_1">Precalienta el horno a 180°C y prepara un molde cuadrado.</string>
+    <string name="brownie_paso_2">Derrite el chocolate y la mantequilla al baño maría.</string>
+    <string name="brownie_paso_3">En un bol, bate los huevos con el azúcar hasta obtener una mezcla.</string>
+    <string name="brownie_paso_4">Incorpora la mezcla de chocolate y mantequilla al bol.</string>
+
+    //ensalada de frutas con miel
+    <!-- Ingredientes -->
+    <string name="ingredientes_titulo"><b>Ingredientes:</b></string>
+    <string name="ensalada_ingrediente_1">2 plátanos</string>
+    <string name="ensalada_ingrediente_2">1 manzana</string>
+    <string name="ensalada_ingrediente_3">1 pera</string>
+    <string name="ensalada_ingrediente_4">1 taza de fresas</string>
+    <string name="ensalada_ingrediente_5">1 taza de uvas</string>
+    <string name="ensalada_ingrediente_6">2 cucharadas de miel</string>
+
+    <!-- Pasos -->
+    <string name="pasos_titulo"><b>Pasos:</b></string>
+    <string name="ensalada_paso_1">Pela y corta todas las frutas en trozos pequeños.</string>
+    <string name="ensalada_paso_2">Mezcla las frutas en un tazón grande.</string>
+    <string name="ensalada_paso_3">Añade la miel y mezcla suavemente para cubrir las frutas.</string>
+    <string name="ensalada_paso_4">Refrigera durante al menos 30 minutos antes de servir.</string>
+
+    //galletas de avena y pasas
+    <!-- Ingredientes -->
+    <string name="galletas_avena_pasas_ingredientes_titulo"><b>Ingredientes:</b></string>
+    <string name="galletas_avena_pasas_ingrediente_1">1 taza de harina de avena</string>
+    <string name="galletas_avena_pasas_ingrediente_2">1/2 taza de azúcar moreno</string>
+    <string name="galletas_avena_pasas_ingrediente_3">1/2 taza de mantequilla derretida</string>
+    <string name="galletas_avena_pasas_ingrediente_4">1 huevo</string>
+    <string name="galletas_avena_pasas_ingrediente_5">1 cucharadita de esencia de vainilla</string>
+    <string name="galletas_avena_pasas_ingrediente_6">1/2 taza de pasas</string>
+
+    <!-- Pasos -->
+    <string name="galletas_avena_pasas_pasos_titulo"><b>Pasos:</b></string>
+    <string name="galletas_avena_pasas_paso_1">Precalienta el horno a 180°C.</string>
+    <string name="galletas_avena_pasas_paso_2">En un tazón grande, mezcla la harina de avena, el azúcar moreno, la mantequilla derretida, el huevo y la esencia de vainilla.</string>
+    <string name="galletas_avena_pasas_paso_3">Añade las pasas a la mezcla y remueve hasta que estén distribuidas uniformemente.</string>
+    <string name="galletas_avena_pasas_paso_4">Forma bolitas con la masa y colócalas en una bandeja para hornear.</string>
+    <string name="galletas_avena_pasas_paso_5">Hornea durante 10-12 minutos o hasta que estén doradas.</string>
+    <string name="galletas_avena_pasas_paso_6">Deja enfriar y disfruta tus galletas de avena y pasas.</string>
+
+//galletas frutos secos
+    <!-- Ingredientes -->
+    <string name="galletas_frutos_secos_ingredientes_titulo"><b>Ingredientes:</b></string>
+    <string name="galletas_frutos_secos_ingrediente_1">1 taza de harina</string>
+    <string name="galletas_frutos_secos_ingrediente_2">1/2 taza de mantequilla derretida</string>
+    <string name="galletas_frutos_secos_ingrediente_3">1/2 taza de azúcar</string>
+    <string name="galletas_frutos_secos_ingrediente_4">1 huevo</string>
+    <string name="galletas_frutos_secos_ingrediente_5">1 taza de frutos secos picados (nueces, almendras, avellanas, etc.)</string>
+
+    <!-- Pasos -->
+    <string name="galletas_frutos_secos_pasos_titulo"><b>Pasos:</b></string>
+    <string name="galletas_frutos_secos_paso_1">Precalienta el horno a 180°C.</string>
+    <string name="galletas_frutos_secos_paso_2">En un tazón grande, mezcla la harina, la mantequilla derretida, el azúcar y el huevo hasta obtener una masa homogénea.</string>
+    <string name="galletas_frutos_secos_paso_3">Agrega los frutos secos picados a la masa y mezcla bien.</string>
+    <string name="galletas_frutos_secos_paso_4">Forma pequeñas bolitas con la masa y colócalas en una bandeja para hornear.</string>
+    <string name="galletas_frutos_secos_paso_5">Hornea durante 12-15 minutos o hasta que estén doradas.</string>
+    <string name="galletas_frutos_secos_paso_6">Deja enfriar y disfruta tus galletas de frutos secos.</string>
+
+
+    //galletas limon avena
+    <!-- Ingredientes -->
+    <string name="galletas_limon_avena_ingredientes_titulo"><b>Ingredientes:</b></string>
+    <string name="galletas_limon_avena_ingrediente_1">1 taza de harina de avena</string>
+    <string name="galletas_limon_avena_ingrediente_2">1/2 taza de mantequilla derretida</string>
+    <string name="galletas_limon_avena_ingrediente_3">1/2 taza de azúcar</string>
+    <string name="galletas_limon_avena_ingrediente_4">1 huevo</string>
+    <string name="galletas_limon_avena_ingrediente_5">Jugo y ralladura de 2 limones</string>
+
+    <!-- Pasos -->
+    <string name="galletas_limon_avena_pasos_titulo"><b>Pasos:</b></string>
+    <string name="galletas_limon_avena_paso_1">Precalienta el horno a 180°C.</string>
+    <string name="galletas_limon_avena_paso_2">En un tazón grande, mezcla la harina de avena, la mantequilla derretida, el azúcar, el huevo, el jugo y la ralladura de limón hasta obtener una masa homogénea.</string>
+    <string name="galletas_limon_avena_paso_3">Forma bolitas con la masa y colócalas en una bandeja para hornear.</string>
+    <string name="galletas_limon_avena_paso_4">Hornea durante 10-12 minutos o hasta que estén doradas.</string>
+    <string name="galletas_limon_avena_paso_5">Deja enfriar y disfruta tus galletas de limón y avena.</string>
+
+    //mousse de chocolate vegano
+    <string name="mousse_chocolate_vegano_ingredientes_titulo"><b>Ingredientes:</b></string>
+    <string name="mousse_chocolate_vegano_ingrediente_1">200g de chocolate negro vegano</string>
+    <string name="mousse_chocolate_vegano_ingrediente_2">1 taza de leche de almendras</string>
+    <string name="mousse_chocolate_vegano_ingrediente_3">1 cucharadita de esencia de vainilla</string>
+    <string name="mousse_chocolate_vegano_ingrediente_4">1 cucharada de azúcar de coco (opcional)</string>
+
+    <!-- Pasos -->
+    <string name="mousse_chocolate_vegano_pasos_titulo"><b>Pasos:</b></string>
+    <string name="mousse_chocolate_vegano_paso_1">Funde el chocolate al baño María o en el microondas y deja enfriar.</string>
+    <string name="mousse_chocolate_vegano_paso_2">En un recipiente, mezcla la leche de almendras, la esencia de vainilla y el azúcar de coco (opcional).</string>
+    <string name="mousse_chocolate_vegano_paso_3">Incorpora el chocolate derretido a la mezcla anterior y remueve bien hasta obtener una textura homogénea.</string>
+    <string name="mousse_chocolate_vegano_paso_4">Refrigera durante al menos 3 horas antes de servir.</string>
+    <string name="mousse_chocolate_vegano_paso_5">Sirve y decora con frutas frescas o frutos secos al gusto.</string>
+
+    //mousse de limon con base de avena
+    <string name="mousse_limon_avena_ingredientes_titulo"><b>Ingredientes:</b></string>
+    <string name="mousse_limon_avena_ingrediente_1">1 taza de avena</string>
+    <string name="mousse_limon_avena_ingrediente_2">1/2 taza de leche de almendras</string>
+    <string name="mousse_limon_avena_ingrediente_3">Jugo y ralladura de 3 limones</string>
+    <string name="mousse_limon_avena_ingrediente_4">3 cucharadas de azúcar de coco</string>
+    <string name="mousse_limon_avena_ingrediente_5">1/2 taza de crema de coco</string>
+
+    <!-- Pasos -->
+    <string name="mousse_limon_avena_pasos_titulo"><b>Pasos:</b></string>
+    <string name="mousse_limon_avena_paso_1">Procesa la avena hasta obtener una harina fina.</string>
+    <string name="mousse_limon_avena_paso_2">Mezcla la harina de avena con la leche de almendras y forma la base en moldes individuales. Refrigera por 15 minutos.</string>
+    <string name="mousse_limon_avena_paso_3">En un recipiente, mezcla el jugo y ralladura de limón con el azúcar de coco.</string>
+    <string name="mousse_limon_avena_paso_4">Añade la crema de coco a la mezcla anterior y bate hasta obtener una textura suave y cremosa.</string>
+    <string name="mousse_limon_avena_paso_5">Vierte la mezcla sobre la base de avena en los moldes y refrigera por al menos 2 horas antes de servir.</string>
+
+
+    //muffins de limon y arandanos
+    <string name="muffins_limon_arandanos_ingredientes_titulo"><b>Ingredientes:</b></string>
+    <string name="muffins_limon_arandanos_ingrediente_1">1 3/4 tazas de harina de trigo</string>
+    <string name="muffins_limon_arandanos_ingrediente_2">1/2 taza de azúcar</string>
+    <string name="muffins_limon_arandanos_ingrediente_3">2 cucharaditas de polvo de hornear</string>
+    <string name="muffins_limon_arandanos_ingrediente_4">1/2 cucharadita de sal</string>
+    <string name="muffins_limon_arandanos_ingrediente_5">Ralladura de 2 limones</string>
+    <string name="muffins_limon_arandanos_ingrediente_6">1/2 taza de aceite vegetal</string>
+    <string name="muffins_limon_arandanos_ingrediente_7">3/4 taza de leche de almendras</string>
+    <string name="muffins_limon_arandanos_ingrediente_8">2 cucharadas de jugo de limón</string>
+    <string name="muffins_limon_arandanos_ingrediente_9">1 taza de arándanos frescos</string>
+
+    <!-- Pasos -->
+    <string name="muffins_limon_arandanos_pasos_titulo"><b>Pasos:</b></string>
+    <string name="muffins_limon_arandanos_paso_1">Precalienta el horno a 190°C y prepara los moldes para muffins con capacillos.</string>
+    <string name="muffins_limon_arandanos_paso_2">En un tazón grande, mezcla la harina, el azúcar, el polvo de hornear, la sal y la ralladura de limón.</string>
+    <string name="muffins_limon_arandanos_paso_3">En otro recipiente, combina el aceite vegetal, la leche de almendras y el jugo de limón. Agrega esta mezcla a los ingredientes secos y mezcla hasta que esté combinado.</string>
+    <string name="muffins_limon_arandanos_paso_4">Incorpora suavemente los arándanos a la mezcla.</string>
+    <string name="muffins_limon_arandanos_paso_5">Vierte la mezcla en los moldes para muffins y hornea durante 20-25 minutos o hasta que estén dorados.</string>
+    <string name="muffins_limon_arandanos_paso_6">Deja enfriar antes de servir y disfruta de tus muffins de limón y arándanos.</string>
+
+    //tarta de limon y frutos secos
+    <string name="tarta_limon_frutos_ingredientes_titulo"><b>Ingredientes:</b></string>
+    <string name="tarta_limon_frutos_ingrediente_1">200g de galletas de vainilla</string>
+    <string name="tarta_limon_frutos_ingrediente_2">100g de mantequilla derretida</string>
+    <string name="tarta_limon_frutos_ingrediente_3">400g de leche condensada</string>
+    <string name="tarta_limon_frutos_ingrediente_4">Zumo de 4 limones</string>
+    <string name="tarta_limon_frutos_ingrediente_5">Ralladura de 2 limones</string>
+    <string name="tarta_limon_frutos_ingrediente_6">100g de frutos secos variados (nueces, almendras, avellanas)</string>
+    <string name="tarta_limon_frutos_ingrediente_7">200ml de crema de leche para montar</string>
+
+    <!-- Pasos -->
+    <string name="tarta_limon_frutos_pasos_titulo"><b>Pasos:</b></string>
+    <string name="tarta_limon_frutos_paso_1">Tritura las galletas de vainilla y mézclalas con la mantequilla derretida. Cubre la base de un molde desmontable con esta mezcla y refrigera.</string>
+    <string name="tarta_limon_frutos_paso_2">En un recipiente, mezcla la leche condensada, el zumo de limón y la ralladura de limón. Vierte esta mezcla sobre la base de galletas y refrigera por 1 hora.</string>
+    <string name="tarta_limon_frutos_paso_3">Monta la crema de leche hasta que forme picos suaves. Extiéndela sobre la tarta y decora con los frutos secos variados.</string>
+    <string name="tarta_limon_frutos_paso_4">Refrigera por al menos 3 horas antes de servir y disfruta de la tarta de limón con frutos secos.</string>
+
+
+    //torta vegana de chocolate
+    <string name="torta_choc_veg_ingredientes_titulo"><b>Ingredientes:</b></string>
+    <string name="torta_choc_veg_ingrediente_1">2 tazas de harina de trigo</string>
+    <string name="torta_choc_veg_ingrediente_2">1 taza de azúcar</string>
+    <string name="torta_choc_veg_ingrediente_3">1/2 taza de cacao en polvo sin azúcar</string>
+    <string name="torta_choc_veg_ingrediente_4">1 cucharadita de bicarbonato de sodio</string>
+    <string name="torta_choc_veg_ingrediente_5">1/2 cucharadita de sal</string>
+    <string name="torta_choc_veg_ingrediente_6">1/2 taza de aceite vegetal</string>
+    <string name="torta_choc_veg_ingrediente_7">2 cucharaditas de vinagre de manzana</string>
+    <string name="torta_choc_veg_ingrediente_8">1 cucharadita de extracto de vainilla</string>
+    <string name="torta_choc_veg_ingrediente_9">1 taza de agua</string>
+    <string name="torta_choc_veg_ingrediente_10">Frosting de chocolate vegano</string>
+    <string name="torta_choc_veg_ingrediente_11">Fresas o frutos rojos para decorar (opcional)</string>
+
+    <!-- Pasos -->
+    <string name="torta_choc_veg_pasos_titulo"><b>Pasos:</b></string>
+    <string name="torta_choc_veg_paso_1">Precalienta el horno a 180°C y engrasa un molde para torta.</string>
+    <string name="torta_choc_veg_paso_2">En un tazón grande, mezcla la harina, el azúcar, el cacao en polvo, el bicarbonato de sodio y la sal.</string>
+    <string name="torta_choc_veg_paso_3">Añade el aceite vegetal, el vinagre de manzana, el extracto de vainilla y el agua. Mezcla bien hasta que esté suave y homogéneo.</string>
+    <string name="torta_choc_veg_paso_4">Vierte la mezcla en el molde preparado y hornea durante 30-35 minutos o hasta que al insertar un palillo, este salga limpio.</string>
+    <string name="torta_choc_veg_paso_5">Deja enfriar la torta antes de aplicar el frosting de chocolate vegano. Decora con fresas o frutos rojos si lo deseas.</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
