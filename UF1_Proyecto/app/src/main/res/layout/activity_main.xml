@@ -32,6 +32,7 @@
     </TextView>
 
     <Button
+        android:id="@+id/botonIngredientes"
         android:layout_width="174dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
@@ -41,6 +42,7 @@
         android:textColor="@color/beige_crema"></Button>
 
     <Button
+        android:id="@+id/botonCategorias"
         android:layout_width="174dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
@@ -50,6 +52,7 @@
         android:textColor="@color/beige_crema"></Button>
 
     <Button
+        android:id="@+id/botonSalir"
         android:layout_width="wrap_content"
         android:layout_height="36dp"
         android:layout_gravity="center_horizontal"

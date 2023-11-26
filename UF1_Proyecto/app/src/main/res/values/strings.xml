@@ -37,8 +37,6 @@
     <string name="botonBuscar">Buscar</string>
 
 
-
-
     <string name="galletasAvena">Galletas de avena con frutos secos</string>
     <string name="tortaChoc">Tarta vegana de chocolate</string>
     <string name="muffinsLimonAran">Muffins de limón y arándanos</string>
@@ -136,7 +134,7 @@
     <string name="galletas_avena_pasas_paso_5">Hornea durante 10-12 minutos o hasta que estén doradas.</string>
     <string name="galletas_avena_pasas_paso_6">Deja enfriar y disfruta tus galletas de avena y pasas.</string>
 
-//galletas frutos secos
+    //galletas frutos secos
     <!-- Ingredientes -->
     <string name="galletas_frutos_secos_ingredientes_titulo"><b>Ingredientes:</b></string>
     <string name="galletas_frutos_secos_ingrediente_1">1 taza de harina</string>
