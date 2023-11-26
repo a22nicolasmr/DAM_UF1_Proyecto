@@ -32,82 +32,94 @@
                 android:paddingBottom="8dp" />
 
             <TextView
+                android:paddingEnd="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/torta_choc_veg_ingrediente_1"
-                android:paddingLeft="16dp"
+                android:paddingStart="16dp"
                 android:paddingBottom="4dp" />
 
             <TextView
+                android:paddingEnd="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/torta_choc_veg_ingrediente_2"
-                android:paddingLeft="16dp"
+                android:paddingStart="16dp"
                 android:paddingBottom="4dp" />
 
             <TextView
+                android:paddingEnd="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/torta_choc_veg_ingrediente_3"
-                android:paddingLeft="16dp"
+                android:paddingStart="16dp"
                 android:paddingBottom="4dp" />
 
             <TextView
+                android:paddingEnd="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/torta_choc_veg_ingrediente_4"
-                android:paddingLeft="16dp"
+                android:paddingStart="16dp"
                 android:paddingBottom="4dp" />
 
             <TextView
+                android:paddingEnd="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/torta_choc_veg_ingrediente_5"
-                android:paddingLeft="16dp"
+                android:paddingStart="16dp"
                 android:paddingBottom="4dp" />
 
             <TextView
+                android:paddingEnd="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/torta_choc_veg_ingrediente_6"
-                android:paddingLeft="16dp"
+                android:paddingStart="16dp"
                 android:paddingBottom="4dp" />
 
             <TextView
+                android:paddingEnd="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/torta_choc_veg_ingrediente_7"
-                android:paddingLeft="16dp"
+                android:paddingStart="16dp"
                 android:paddingBottom="4dp" />
 
             <TextView
+
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/torta_choc_veg_ingrediente_8"
-                android:paddingLeft="16dp"
+                android:paddingStart="16dp"
                 android:paddingBottom="4dp" />
 
             <TextView
+                android:paddingEnd="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/torta_choc_veg_ingrediente_9"
-                android:paddingLeft="16dp"
+                android:paddingStart="16dp"
                 android:paddingBottom="4dp" />
 
             <TextView
+                android:paddingEnd="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/torta_choc_veg_ingrediente_10"
-                android:paddingLeft="16dp"
+                android:paddingStart="16dp"
                 android:paddingBottom="4dp" />
 
             <TextView
+                android:paddingEnd="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/torta_choc_veg_ingrediente_11"
-                android:paddingLeft="16dp"
+                android:paddingStart="16dp"
                 android:paddingBottom="8dp" />
             <TextView
+
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/torta_choc_veg_pasos_titulo"
@@ -117,38 +129,43 @@
                 android:paddingBottom="8dp" />
 
             <TextView
+                android:paddingEnd="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/torta_choc_veg_paso_1"
-                android:paddingLeft="16dp"
+                android:paddingStart="16dp"
                 android:paddingBottom="4dp" />
 
             <TextView
+                android:paddingEnd="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/torta_choc_veg_paso_2"
-                android:paddingLeft="16dp"
+                android:paddingStart="16dp"
                 android:paddingBottom="4dp" />
 
             <TextView
+                android:paddingEnd="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/torta_choc_veg_paso_3"
-                android:paddingLeft="16dp"
+                android:paddingStart="16dp"
                 android:paddingBottom="4dp" />
 
             <TextView
+                android:paddingEnd="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/torta_choc_veg_paso_4"
-                android:paddingLeft="16dp"
+                android:paddingStart="16dp"
                 android:paddingBottom="4dp" />
 
             <TextView
+                android:paddingEnd="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/torta_choc_veg_paso_5"
-                android:paddingLeft="16dp"
+                android:paddingStart="16dp"
                 android:paddingBottom="4dp" />
 
         </LinearLayout>
