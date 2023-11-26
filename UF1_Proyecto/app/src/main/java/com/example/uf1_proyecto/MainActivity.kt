@@ -15,12 +15,12 @@ class MainActivity : AppCompatActivity() {
         val btnSalir= findViewById<Button>(R.id.botonSalir)
 
         btnIngredientes.setOnClickListener {
-            val intent = Intent(this, ButonIngredientes::class.java)
+            val intent = Intent(this, IngredientesFragment::class.java)
             startActivity(intent)
         }
 
         btnCategorias.setOnClickListener {
-            val intent = Intent(this, ButtonCategory::class.java)
+            val intent = Intent(this, CategoriaFragment::class.java)
             startActivity(intent)
         }
 
