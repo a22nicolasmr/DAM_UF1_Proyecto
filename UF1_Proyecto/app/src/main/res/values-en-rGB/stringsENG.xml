@@ -49,4 +49,209 @@
     <string name="galletasAvenaPasas">Oat and raisin cookies</string>
     <string name="mousseChocVeg">Vegan chocolate mousse</string>
 
+
+
+    <string name="ingredientes_titulo"><b>Ingredients:</b></string>
+    <string name="ingrediente_1">- 1 cup of peanut butter (natural, no added sugar)</string>
+    <string name="ingrediente_2">- 1/2 cup of honey or maple syrup</string>
+    <string name="ingrediente_3">- 2 cups of oat flakes</string>
+    <string name="ingrediente_4">- 1 cup of peanuts (whole or chopped)</string>
+    <string name="ingrediente_5">- 1/2 cup of chocolate chips or chunks (preferably dark or semi-sweet)</string>
+    <string name="ingrediente_6">- 1 teaspoon of vanilla extract</string>
+    <string name="ingrediente_7">- A pinch of salt (optional)</string>
+
+    <!-- Steps -->
+    <string name="pasos_titulo"><b>Steps:</b></string>
+    <string name="paso_1">1. In a saucepan over medium heat, warm the peanut butter and honey...</string>
+    <string name="paso_2">2. Remove the mixture from heat and add the oat flakes, peanuts...</string>
+    <string name="paso_3">3. Mix everything until all ingredients are fully combined...</string>
+    <string name="paso_4">4. In a square or rectangular mold, previously lined with parchment paper...</string>
+    <string name="paso_5">5. Refrigerate the mixture for at least 2-3 hours...</string>
+    <string name="paso_6">6. Once firm, remove the mixture from the mold and cut it into desired-sized bars...</string>
+
+    <string name="recEnsalada">Fruit Salad with Honey and Lemon</string>
+    <string name="recTartaLimonFrutos">Lemon Tart with Nuts</string>
+    <string name="recMousseLimonAvena">Lemon Mousse with Oat Base</string>
+    <string name="recBrowniesChocNueces">Chocolate and Nut Brownies</string>
+    <string name="recGalletasLimonAvena">Lemon and Oat Cookies</string>
+    <string name="recGalletasAvenaPasas">Oat and Raisin Cookies</string>
+    <string name="recMousseChocVeg">Vegan Chocolate Mousse</string>
+
+
+    // Chocolate and Nut Brownies
+    <!-- Recipe Title -->
+    <string name="brownies_titulo">Chocolate and Nut Brownies</string>
+
+
+    <string name="brownie_ingrediente_1">200g of dark chocolate (minimum 70% cocoa)</string>
+    <string name="brownie_ingrediente_2">150g of unsalted butter</string>
+    <string name="brownie_ingrediente_3">200g of sugar</string>
+    <string name="brownie_ingrediente_4">100g of chopped nuts</string>
+
+    <!-- Steps -->
+
+    <string name="brownie_paso_1">Preheat the oven to 180°C and prepare a square mold.</string>
+    <string name="brownie_paso_2">Melt the chocolate and butter in a double boiler.</string>
+    <string name="brownie_paso_3">In a bowl, beat the eggs with the sugar until a mixture is obtained.</string>
+    <string name="brownie_paso_4">Incorporate the chocolate and butter mixture into the bowl.</string>
+
+    // Fruit Salad with Honey and Lemon
+    <!-- Ingredients -->
+
+    <string name="ensalada_ingrediente_1">2 bananas</string>
+    <string name="ensalada_ingrediente_2">1 apple</string>
+    <string name="ensalada_ingrediente_3">1 pear</string>
+    <string name="ensalada_ingrediente_4">1 cup of strawberries</string>
+    <string name="ensalada_ingrediente_5">1 cup of grapes</string>
+    <string name="ensalada_ingrediente_6">2 tablespoons of honey</string>
+
+    <!-- Steps -->
+
+    <string name="ensalada_paso_1">Peel and cut all the fruits into small pieces.</string>
+    <string name="ensalada_paso_2">Mix the fruits in a large bowl.</string>
+    <string name="ensalada_paso_3">Add the honey and gently mix to coat the fruits.</string>
+    <string name="ensalada_paso_4">Refrigerate for at least 30 minutes before serving.</string>
+
+    // Oat and Raisin Cookies
+    <!-- Ingredients -->
+
+    <string name="galletas_avena_pasas_ingrediente_1">1 cup of oat flour</string>
+    <string name="galletas_avena_pasas_ingrediente_2">1/2 cup of brown sugar</string>
+    <string name="galletas_avena_pasas_ingrediente_3">1/2 cup of melted butter</string>
+    <string name="galletas_avena_pasas_ingrediente_4">1 egg</string>
+    <string name="galletas_avena_pasas_ingrediente_5">1 teaspoon of vanilla essence</string>
+    <string name="galletas_avena_pasas_ingrediente_6">1/2 cup of raisins</string>
+
+    <!-- Steps -->
+    <string name="galletas_avena_pasas_pasos_titulo"><b>Steps:</b></string>
+    <string name="galletas_avena_pasas_paso_1">Preheat the oven to 180°C.</string>
+    <string name="galletas_avena_pasas_paso_2">In a large bowl, mix oat flour, brown sugar, melted butter, egg, and vanilla essence.</string>
+    <string name="galletas_avena_pasas_paso_3">Add the raisins to the mixture and stir until evenly distributed.</string>
+    <string name="galletas_avena_pasas_paso_4">Shape the dough into balls and place them on a baking tray.</string>
+    <string name="galletas_avena_pasas_paso_5">Bake for 10-12 minutes or until golden brown.</string>
+    <string name="galletas_avena_pasas_paso_6">Let cool and enjoy your oat and raisin cookies.</string>
+
+    // Nutty Cookies
+    <!-- Ingredients -->
+
+    <string name="galletas_frutos_secos_ingrediente_1">1 cup of flour</string>
+    <string name="galletas_frutos_secos_ingrediente_2">1/2 cup of melted butter</string>
+    <string name="galletas_frutos_secos_ingrediente_3">1/2 cup of sugar</string>
+    <string name="galletas_frutos_secos_ingrediente_4">1 egg</string>
+    <string name="galletas_frutos_secos_ingrediente_5">1 cup of chopped nuts (walnuts, almonds, hazelnuts, etc.)</string>
+
+    <!-- Steps -->
+    <string name="galletas_frutos_secos_pasos_titulo"><b>Steps:</b></string>
+    <string name="galletas_frutos_secos_paso_1">Preheat the oven to 180°C.</string>
+    <string name="galletas_frutos_secos_paso_2">In a large bowl, mix the flour, melted butter, sugar, and egg until obtaining a homogeneous dough.</string>
+    <string name="galletas_frutos_secos_paso_3">Add the chopped nuts to the dough and mix well.</string>
+    <string name="galletas_frutos_secos_paso_4">Shape small balls with the dough and place them on a baking tray.</string>
+    <string name="galletas_frutos_secos_paso_5">Bake for 12-15 minutes or until golden brown.</string>
+    <string name="galletas_frutos_secos_paso_6">Let cool and enjoy your nutty cookies.</string>
+
+    <string name="tarta_limon_frutos_ingrediente_1">200g of vanilla cookies</string>
+    <string name="tarta_limon_frutos_ingrediente_2">100g of melted butter</string>
+    <string name="tarta_limon_frutos_ingrediente_3">400g of condensed milk</string>
+    <string name="tarta_limon_frutos_ingrediente_4">Juice of 4 lemons</string>
+    <string name="tarta_limon_frutos_ingrediente_5">Zest of 2 lemons</string>
+    <string name="tarta_limon_frutos_ingrediente_6">100g of mixed nuts (walnuts, almonds, hazelnuts)</string>
+    <string name="tarta_limon_frutos_ingrediente_7">200ml of heavy cream</string>
+
+    <!-- Steps -->
+    <string name="tarta_limon_frutos_pasos_titulo"><b>Steps:</b></string>
+    <string name="tarta_limon_frutos_paso_1">Crush the vanilla cookies and mix them with the melted butter. Cover the base of a removable mold with this mixture and refrigerate.</string>
+    <string name="tarta_limon_frutos_paso_2">In a bowl, mix the condensed milk, lemon juice, and lemon zest. Pour this mixture over the cookie base and refrigerate for 1 hour.</string>
+    <string name="tarta_limon_frutos_paso_3">Whip the heavy cream until soft peaks form. Spread it over the tart and decorate with the mixed nuts.</string>
+    <string name="tarta_limon_frutos_paso_4">Refrigerate for at least 3 hours before serving and enjoy the lemon and nut tart.</string>
+
+
+    // Vegan Chocolate Cake
+
+    <string name="torta_choc_veg_ingrediente_1">2 cups of wheat flour</string>
+    <string name="torta_choc_veg_ingrediente_2">1 cup of sugar</string>
+    <string name="torta_choc_veg_ingrediente_3">1/2 cup of unsweetened cocoa powder</string>
+    <string name="torta_choc_veg_ingrediente_4">1 teaspoon of baking soda</string>
+    <string name="torta_choc_veg_ingrediente_5">1/2 teaspoon of salt</string>
+    <string name="torta_choc_veg_ingrediente_6">1/2 cup of vegetable oil</string>
+    <string name="torta_choc_veg_ingrediente_7">2 teaspoons of apple cider vinegar</string>
+    <string name="torta_choc_veg_ingrediente_8">1 teaspoon of vanilla extract</string>
+    <string name="torta_choc_veg_ingrediente_9">1 cup of water</string>
+    <string name="torta_choc_veg_ingrediente_10">Vegan chocolate frosting</string>
+    <string name="torta_choc_veg_ingrediente_11">Strawberries or red berries for decoration (optional)</string>
+
+    <!-- Steps -->
+    <string name="torta_choc_veg_pasos_titulo"><b>Steps:</b></string>
+    <string name="torta_choc_veg_paso_1">Preheat the oven to 180°C and grease a cake pan.</string>
+    <string name="torta_choc_veg_paso_2">In a large bowl, mix the flour, sugar, cocoa powder, baking soda, and salt.</string>
+    <string name="torta_choc_veg_paso_3">Add the vegetable oil, apple cider vinegar, vanilla extract, and water. Mix well until smooth and homogeneous.</string>
+    <string name="torta_choc_veg_paso_4">Pour the mixture into the prepared pan and bake for 30-35 minutes or until a toothpick inserted comes out clean.</string>
+    <string name="torta_choc_veg_paso_5">Allow the cake to cool before applying the vegan chocolate frosting. Decorate with strawberries or red berries if desired.</string>
+
+    <string name="galletas_limon_avena_ingrediente_1">1 cup oat flour</string>
+    <string name="galletas_limon_avena_ingrediente_2">1/2 cup melted butter</string>
+    <string name="galletas_limon_avena_ingrediente_3">1/2 cup sugar</string>
+    <string name="galletas_limon_avena_ingrediente_4">1 egg</string>
+    <string name="galletas_limon_avena_ingrediente_5">Juice and zest of 2 lemons</string>
+
+    <!-- Steps -->
+    <string name="galletas_limon_avena_pasos_titulo"><b>Steps:</b></string>
+    <string name="galletas_limon_avena_paso_1">Preheat the oven to 180°C (350°F).</string>
+    <string name="galletas_limon_avena_paso_2">In a large bowl, mix oat flour, melted butter, sugar, egg, lemon juice, and lemon zest until you get a homogeneous dough.</string>
+    <string name="galletas_limon_avena_paso_3">Form balls with the dough and place them on a baking sheet.</string>
+    <string name="galletas_limon_avena_paso_4">Bake for 10-12 minutes or until golden.</string>
+    <string name="galletas_limon_avena_paso_5">Let them cool and enjoy your lemon and oat cookies.</string>
+
+    // Vegan Chocolate Mousse
+
+    <string name="mousse_chocolate_vegano_ingrediente_1">200g vegan dark chocolate</string>
+    <string name="mousse_chocolate_vegano_ingrediente_2">1 cup almond milk</string>
+    <string name="mousse_chocolate_vegano_ingrediente_3">1 teaspoon vanilla extract</string>
+    <string name="mousse_chocolate_vegano_ingrediente_4">1 tablespoon coconut sugar (optional)</string>
+
+    <!-- Steps -->
+    <string name="mousse_chocolate_vegano_pasos_titulo"><b>Steps:</b></string>
+    <string name="mousse_chocolate_vegano_paso_1">Melt the chocolate using a double boiler or microwave and let it cool.</string>
+    <string name="mousse_chocolate_vegano_paso_2">In a bowl, mix almond milk, vanilla extract, and coconut sugar (optional).</string>
+    <string name="mousse_chocolate_vegano_paso_3">Incorporate the melted chocolate into the previous mixture and stir well until you get a homogeneous texture.</string>
+    <string name="mousse_chocolate_vegano_paso_4">Refrigerate for at least 3 hours before serving.</string>
+    <string name="mousse_chocolate_vegano_paso_5">Serve and garnish with fresh fruits or nuts according to your preference.</string>
+
+    // Lemon Mousse with Oat Base
+
+    <string name="mousse_limon_avena_ingrediente_1">1 cup oatmeal</string>
+    <string name="mousse_limon_avena_ingrediente_2">1/2 cup almond milk</string>
+    <string name="mousse_limon_avena_ingrediente_3">Juice and zest of 3 lemons</string>
+    <string name="mousse_limon_avena_ingrediente_4">3 tablespoons coconut sugar</string>
+    <string name="mousse_limon_avena_ingrediente_5">1/2 cup coconut cream</string>
+
+    <!-- Steps -->
+    <string name="mousse_limon_avena_pasos_titulo"><b>Steps:</b></string>
+    <string name="mousse_limon_avena_paso_1">Process the oatmeal until obtaining a fine flour.</string>
+    <string name="mousse_limon_avena_paso_2">Mix oat flour with almond milk and form the base in individual molds. Refrigerate for 15 minutes.</string>
+    <string name="mousse_limon_avena_paso_3">In a bowl, mix lemon juice and zest with coconut sugar.</string>
+    <string name="mousse_limon_avena_paso_4">Add coconut cream to the previous mixture and beat until smooth and creamy.</string>
+    <string name="mousse_limon_avena_paso_5">Pour the mixture over the oat base in the molds and refrigerate for at least 2 hours before serving.</string>
+
+    // Lemon and Blueberry Muffins
+
+    <string name="muffins_limon_arandanos_ingrediente_1">1 3/4 cups wheat flour</string>
+    <string name="muffins_limon_arandanos_ingrediente_2">1/2 cup sugar</string>
+    <string name="muffins_limon_arandanos_ingrediente_3">2 teaspoons baking powder</string>
+    <string name="muffins_limon_arandanos_ingrediente_4">1/2 teaspoon salt</string>
+    <string name="muffins_limon_arandanos_ingrediente_5">Zest of 2 lemons</string>
+    <string name="muffins_limon_arandanos_ingrediente_6">1/2 cup vegetable oil</string>
+    <string name="muffins_limon_arandanos_ingrediente_7">3/4 cup almond milk</string>
+    <string name="muffins_limon_arandanos_ingrediente_8">2 tablespoons lemon juice</string>
+    <string name="muffins_limon_arandanos_ingrediente_9">1 cup fresh blueberries</string>
+
+    <!-- Steps -->
+    <string name="muffins_limon_arandanos_pasos_titulo"><b>Steps:</b></string>
+    <string name="muffins_limon_arandanos_paso_1">Preheat the oven to 190°C (375°F) and prepare muffin tins with liners.</string>
+    <string name="muffins_limon_arandanos_paso_2">In a large bowl, mix flour, sugar, baking powder, salt, and lemon zest.</string>
+    <string name="muffins_limon_arandanos_paso_3">In another bowl, combine vegetable oil, almond milk, and lemon juice. Add this mixture to the dry ingredients and mix until combined.</string>
+    <string name="muffins_limon_arandanos_paso_4">Gently fold in the blueberries into the mixture.</string>
+    <string name="muffins_limon_arandanos_paso_5">Pour the batter into the muffin tins and bake for 20-25 minutes or until golden.</string>
+    <string name="muffins_limon_arandanos_paso_6">Let them cool before serving and enjoy your lemon and blueberry muffins.</string>
+
+
 </resources>

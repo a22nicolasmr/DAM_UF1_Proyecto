@@ -7,21 +7,30 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.CheckBox
 
 
 class IngredientesFragment : Fragment() {
+
+    // Referencia al CheckBox dentro de IngredientesFragment
+    private lateinit var checkBoxLimon: CheckBox
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val view= inflater.inflate(R.layout.fragment_ingredientes, container, false)
+        val view = inflater.inflate(R.layout.fragment_ingredientes, container, false)
 
-        val btnOK = view.findViewById<Button>(R.id.botonBuscarIngredientes)
+        // Asignar el CheckBox desde la vista inflada
+        checkBoxLimon = view.findViewById(R.id.checkBoxLimon)
 
-        btnOK.setOnClickListener {
-            val intent = Intent(activity, ProductosFragment::class.java)
-            startActivity(intent)
-        }
+        // Puedes configurar listeners u otras operaciones con el CheckBox aquí
+
         return view
+    }
+
+    // Método para obtener el estado actual del CheckBox
+    fun getCheckBoxState(): Boolean {
+        return checkBoxLimon.isChecked
     }
 }

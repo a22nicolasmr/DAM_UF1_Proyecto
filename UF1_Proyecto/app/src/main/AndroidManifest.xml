@@ -12,18 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UF1_Proyecto"
         tools:targetApi="31">
-        <activity
-            android:name=".BotonOKCategorias"
-            android:exported="false" />
-        <activity
-            android:name=".BotonOKIngredientes"
-            android:exported="false" />
-        <activity
-            android:name=".ButtonCategory"
-            android:exported="false" />
-        <activity
-            android:name=".ButonIngredientes"
-            android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
