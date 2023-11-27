@@ -21,20 +21,14 @@
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="234dp"
-                android:src="@drawable/tartaLimonFrutosSecos" />
+                android:src="@drawable/tartalimonfrutossecos" />
+
+
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/mousse_chocolate_vegano_ingredientes_titulo"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                android:paddingBottom="8dp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/tarta_limon_frutos_ingredientes_titulo"
+                android:text="@string/ingredientes_titulo"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:paddingBottom="8dp" />

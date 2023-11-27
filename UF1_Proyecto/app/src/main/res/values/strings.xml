@@ -85,14 +85,14 @@
     <!-- Título de la receta -->
     <string name="brownies_titulo">Brownies de Chocolate y Nueces</string>
 
-    <string name="ingredientes_titulo"><b>Ingredientes:</b></string>
+
     <string name="brownie_ingrediente_1">200g de chocolate negro (mínimo 70% de cacao)</string>
     <string name="brownie_ingrediente_2">150g de mantequilla sin sal</string>
     <string name="brownie_ingrediente_3">200g de azúcar</string>
     <string name="brownie_ingrediente_4">100g de nueces troceadas</string>
 
     <!-- Pasos -->
-    <string name="pasos_titulo"><b>Pasos:</b></string>
+
     <string name="brownie_paso_1">Precalienta el horno a 180°C y prepara un molde cuadrado.</string>
     <string name="brownie_paso_2">Derrite el chocolate y la mantequilla al baño maría.</string>
     <string name="brownie_paso_3">En un bol, bate los huevos con el azúcar hasta obtener una mezcla.</string>
@@ -100,7 +100,7 @@
 
     //ensalada de frutas con miel
     <!-- Ingredientes -->
-    <string name="ingredientes_titulo"><b>Ingredientes:</b></string>
+
     <string name="ensalada_ingrediente_1">2 plátanos</string>
     <string name="ensalada_ingrediente_2">1 manzana</string>
     <string name="ensalada_ingrediente_3">1 pera</string>
@@ -109,7 +109,7 @@
     <string name="ensalada_ingrediente_6">2 cucharadas de miel</string>
 
     <!-- Pasos -->
-    <string name="pasos_titulo"><b>Pasos:</b></string>
+
     <string name="ensalada_paso_1">Pela y corta todas las frutas en trozos pequeños.</string>
     <string name="ensalada_paso_2">Mezcla las frutas en un tazón grande.</string>
     <string name="ensalada_paso_3">Añade la miel y mezcla suavemente para cubrir las frutas.</string>
@@ -117,7 +117,7 @@
 
     //galletas de avena y pasas
     <!-- Ingredientes -->
-    <string name="galletas_avena_pasas_ingredientes_titulo"><b>Ingredientes:</b></string>
+
     <string name="galletas_avena_pasas_ingrediente_1">1 taza de harina de avena</string>
     <string name="galletas_avena_pasas_ingrediente_2">1/2 taza de azúcar moreno</string>
     <string name="galletas_avena_pasas_ingrediente_3">1/2 taza de mantequilla derretida</string>
@@ -136,7 +136,7 @@
 
     //galletas frutos secos
     <!-- Ingredientes -->
-    <string name="galletas_frutos_secos_ingredientes_titulo"><b>Ingredientes:</b></string>
+
     <string name="galletas_frutos_secos_ingrediente_1">1 taza de harina</string>
     <string name="galletas_frutos_secos_ingrediente_2">1/2 taza de mantequilla derretida</string>
     <string name="galletas_frutos_secos_ingrediente_3">1/2 taza de azúcar</string>
@@ -155,7 +155,7 @@
 
     //galletas limon avena
     <!-- Ingredientes -->
-    <string name="galletas_limon_avena_ingredientes_titulo"><b>Ingredientes:</b></string>
+
     <string name="galletas_limon_avena_ingrediente_1">1 taza de harina de avena</string>
     <string name="galletas_limon_avena_ingrediente_2">1/2 taza de mantequilla derretida</string>
     <string name="galletas_limon_avena_ingrediente_3">1/2 taza de azúcar</string>
@@ -171,7 +171,7 @@
     <string name="galletas_limon_avena_paso_5">Deja enfriar y disfruta tus galletas de limón y avena.</string>
 
     //mousse de chocolate vegano
-    <string name="mousse_chocolate_vegano_ingredientes_titulo"><b>Ingredientes:</b></string>
+
     <string name="mousse_chocolate_vegano_ingrediente_1">200g de chocolate negro vegano</string>
     <string name="mousse_chocolate_vegano_ingrediente_2">1 taza de leche de almendras</string>
     <string name="mousse_chocolate_vegano_ingrediente_3">1 cucharadita de esencia de vainilla</string>
@@ -186,7 +186,7 @@
     <string name="mousse_chocolate_vegano_paso_5">Sirve y decora con frutas frescas o frutos secos al gusto.</string>
 
     //mousse de limon con base de avena
-    <string name="mousse_limon_avena_ingredientes_titulo"><b>Ingredientes:</b></string>
+
     <string name="mousse_limon_avena_ingrediente_1">1 taza de avena</string>
     <string name="mousse_limon_avena_ingrediente_2">1/2 taza de leche de almendras</string>
     <string name="mousse_limon_avena_ingrediente_3">Jugo y ralladura de 3 limones</string>
@@ -203,7 +203,7 @@
 
 
     //muffins de limon y arandanos
-    <string name="muffins_limon_arandanos_ingredientes_titulo"><b>Ingredientes:</b></string>
+
     <string name="muffins_limon_arandanos_ingrediente_1">1 3/4 tazas de harina de trigo</string>
     <string name="muffins_limon_arandanos_ingrediente_2">1/2 taza de azúcar</string>
     <string name="muffins_limon_arandanos_ingrediente_3">2 cucharaditas de polvo de hornear</string>
@@ -224,7 +224,7 @@
     <string name="muffins_limon_arandanos_paso_6">Deja enfriar antes de servir y disfruta de tus muffins de limón y arándanos.</string>
 
     //tarta de limon y frutos secos
-    <string name="tarta_limon_frutos_ingredientes_titulo"><b>Ingredientes:</b></string>
+
     <string name="tarta_limon_frutos_ingrediente_1">200g de galletas de vainilla</string>
     <string name="tarta_limon_frutos_ingrediente_2">100g de mantequilla derretida</string>
     <string name="tarta_limon_frutos_ingrediente_3">400g de leche condensada</string>
@@ -242,7 +242,7 @@
 
 
     //torta vegana de chocolate
-    <string name="torta_choc_veg_ingredientes_titulo"><b>Ingredientes:</b></string>
+
     <string name="torta_choc_veg_ingrediente_1">2 tazas de harina de trigo</string>
     <string name="torta_choc_veg_ingrediente_2">1 taza de azúcar</string>
     <string name="torta_choc_veg_ingrediente_3">1/2 taza de cacao en polvo sin azúcar</string>

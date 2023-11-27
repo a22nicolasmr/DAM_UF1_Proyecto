@@ -87,6 +87,7 @@
                 android:layout_height="48dp"
                 android:text="@string/frutas"/>
             <Button
+                android:layout_marginBottom="20dp"
                 android:id="@+id/botonBuscarCategorias"
                 android:textSize="15dp"
                 android:layout_width="wrap_content"

@@ -15,6 +15,6 @@ class RecetasFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_recetas, container, false)
+        return inflater.inflate(R.layout.fragment_productos, container, false)
     }
 }

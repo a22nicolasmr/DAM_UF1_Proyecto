@@ -21,7 +21,7 @@
 
                 android:layout_width="match_parent"
                 android:layout_height="247dp"
-                android:src="@drawable/galletasAvenaPasas" />
+                android:src="@drawable/galletasavenapasas" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -30,13 +30,7 @@
                 android:textStyle="bold"
                 android:paddingBottom="8dp" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/galletas_avena_pasas_ingredientes_titulo"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                android:paddingBottom="8dp" />
+
 
             <TextView
                 android:layout_width="match_parent"

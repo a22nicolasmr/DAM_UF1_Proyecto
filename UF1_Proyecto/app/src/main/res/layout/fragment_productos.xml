@@ -91,7 +91,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_width="222dp"
                         android:layout_height="170dp"
-                        android:src="@drawable/barritasCacahuete"/>
+                        android:src="@drawable/barritascacahuete"/>
                     <TextView
                         android:layout_marginLeft="20dp"
                         android:layout_width="222dp"
@@ -104,12 +104,13 @@
                     android:orientation="vertical"
                     android:id="@+id/grupoEnsaladaFrutas"
                     >
+
                     <ImageView
-                        android:layout_marginTop="20dp"
-                        android:layout_marginLeft="20dp"
                         android:layout_width="222dp"
-                        android:layout_height="170dp"
-                        android:src="@drawable/ensaladaFrutas"/>
+                        android:layout_height="211dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/ensaladafrutas" />
                     <TextView
                         android:layout_marginLeft="20dp"
                         android:layout_width="222dp"
@@ -127,7 +128,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_width="222dp"
                         android:layout_height="170dp"
-                        android:src="@drawable/tartaLimonFrutosSecos"/>
+                        android:src="@drawable/tartalimonfrutossecos"/>
                     <TextView
                         android:layout_marginLeft="20dp"
                         android:layout_width="222dp"
@@ -145,7 +146,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_width="222dp"
                         android:layout_height="170dp"
-                        android:src="@drawable/mousseLimonAvena"/>
+                        android:src="@drawable/mousselimonavena"/>
                     <TextView
                         android:layout_marginLeft="20dp"
                         android:layout_width="222dp"
@@ -163,7 +164,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_width="222dp"
                         android:layout_height="170dp"
-                        android:src="@drawable/browniesChocNueces"/>
+                        android:src="@drawable/brownieschocnueces"/>
                     <TextView
                         android:layout_marginLeft="20dp"
                         android:layout_width="222dp"
@@ -176,12 +177,13 @@
                     android:orientation="vertical"
                     android:id="@+id/grupoGalletasLimonAvena"
                     >
+
                     <ImageView
                         android:layout_marginTop="20dp"
-                        android:layout_marginLeft="20dp"
                         android:layout_width="222dp"
-                        android:layout_height="170dp"
-                        android:src="@drawable/galletasAvenaLimon"/>
+                        android:layout_height="133dp"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/galletasavenalimon" />
                     <TextView
                         android:layout_marginLeft="20dp"
                         android:layout_width="222dp"
@@ -194,12 +196,13 @@
                     android:orientation="vertical"
                     android:id="@+id/grupoGalletasAvenaPasas"
                     >
+
                     <ImageView
                         android:layout_marginTop="20dp"
-                        android:layout_marginLeft="20dp"
                         android:layout_width="222dp"
-                        android:layout_height="170dp"
-                        android:src="@drawable/galletasAvenaPasas"/>
+                        android:layout_height="130dp"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/galletasavenapasas" />
                     <TextView
                         android:layout_marginLeft="20dp"
                         android:layout_width="222dp"
@@ -211,20 +214,37 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
                     android:id="@+id/grupoMousseChocolateVegano"
+                    android:layout_marginBottom="200dp"
                     >
+
                     <ImageView
 
                         android:layout_marginTop="20dp"
+                        android:layout_width="220dp"
+                        android:layout_height="112dp"
                         android:layout_marginLeft="20dp"
-                        android:layout_width="222dp"
-                        android:layout_height="170dp"
-                        android:src="@drawable/mousseChocVegano"/>
+                        android:src="@drawable/moussechocvegano" />
                     <TextView
                         android:layout_marginLeft="20dp"
                         android:layout_width="222dp"
                         android:layout_height="18dp"
                         android:text="@string/mousseChocVeg" />
                 </LinearLayout>
+                <androidx.fragment.app.FragmentContainerView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fragmentContainerView">
+                </androidx.fragment.app.FragmentContainerView>
+
+                <com.google.android.material.bottomnavigation.BottomNavigationView
+                    android:id="@+id/bottomNavigationView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    app:menu="@menu/bottomenu"
+                    >
+                </com.google.android.material.bottomnavigation.BottomNavigationView>
             </LinearLayout>
+
     </ScrollView>
 </LinearLayout>

@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/beige_crema"
+
     >
 
     <ImageView
@@ -32,7 +33,9 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+
+            >
 
             <CheckBox
                 android:textSize="18dp"
@@ -123,6 +126,7 @@
                 android:text="@string/avena"/>
 
             <Button
+                android:layout_marginBottom="20dp"
                 android:id="@+id/botonBuscarIngredientes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
