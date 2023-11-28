@@ -18,11 +18,14 @@ class CategoriaFragment : Fragment() {
         // Inflate the layout for this fragment
         val view= inflater.inflate(R.layout.fragment_categoria, container, false)
 
-        val btnOK = view.findViewById<Button>(R.id.botonBuscarCategorias)
+        val botonIngredientes = view.findViewById<Button>(R.id.botonBuscarCategorias)
 
-        btnOK.setOnClickListener {
-            val intent = Intent(activity, ProductosFragment::class.java)
-            startActivity(intent)
+        botonIngredientes.setOnClickListener {
+            val fragment = ProductosFragment() // Crear una instancia del Fragmento
+            activity?.supportFragmentManager?.beginTransaction()
+                ?.replace(R.id.fragment_container3, fragment) // Reemplazar R.id.fragment_container con tu contenedor de fragmentos
+
+                ?.commit()
         }
         return  view
     }

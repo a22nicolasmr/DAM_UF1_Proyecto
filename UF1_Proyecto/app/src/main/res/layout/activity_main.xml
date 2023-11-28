@@ -6,65 +6,70 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/beige_crema"
-    >
+    android:background="@color/beige_crema">
+
     <FrameLayout
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-    <ImageView
-        android:id="@+id/imagenPrincipal"
-        android:layout_width="wrap_content"
-        android:layout_height="300dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="50dp"
-        android:src="@drawable/tastetriallogo2"></ImageView>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/mensajeInicial"
-       android:layout_marginTop="10dp"
-        android:layout_marginRight="50sp"
-        android:layout_marginLeft="50sp"
-        android:textAlignment="center"
-        android:textSize="23sp"
-        android:textStyle="bold"
-        android:textColor="@color/marronGalleta"
-        >
+        android:layout_height="match_parent" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:id="@+id/imagenPrincipal"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/tastetriallogo2"></ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mensajeInicial"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50sp"
+                android:layout_marginLeft="50sp"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                android:textColor="@color/marronGalleta"
+                >
 
-    </TextView>
+            </TextView>
 
-    <Button
-        android:id="@+id/botonIngredientes"
-        android:layout_width="174dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="40dp"
-        android:background="@color/marronGalleta"
-        android:text="@string/botonIngredientes"
-        android:textColor="@color/beige_crema"></Button>
+            <Button
+                android:id="@+id/botonIngredientes"
+                android:layout_width="174dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="40dp"
+                android:background="@color/marronGalleta"
+                android:text="@string/botonIngredientes"
+                android:textColor="@color/beige_crema"></Button>
 
-    <Button
-        android:id="@+id/botonCategorias"
-        android:layout_width="174dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        android:background="@color/marronGalleta"
-        android:text="@string/botonCategorias"
-        android:textColor="@color/beige_crema"></Button>
+            <Button
+                android:id="@+id/botonCategorias"
+                android:layout_width="174dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@color/marronGalleta"
+                android:text="@string/botonCategorias"
+                android:textColor="@color/beige_crema"></Button>
 
-    <Button
-        android:id="@+id/botonSalir"
-        android:layout_width="wrap_content"
-        android:layout_height="36dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="80dp"
-        android:background="@color/red"
-        android:text="@string/botonSalir"
-        android:textColor="@color/white"
+            <Button
+                android:id="@+id/botonSalir"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="80dp"
+                android:background="@color/red"
+                android:text="@string/botonSalir"
+                android:textColor="@color/white"
 
-        ></Button>
-
-
+                ></Button>
+        </LinearLayout>
+    </FrameLayout>
 </LinearLayout>

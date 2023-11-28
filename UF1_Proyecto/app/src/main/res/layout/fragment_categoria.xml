@@ -1,104 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+
+<FrameLayout
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_container3"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@color/beige_crema"
-    >
+    android:layout_height="match_parent">
 
+    <LinearLayout
 
-    <ImageView
         android:layout_width="match_parent"
-        android:layout_height="276dp"
-        android:src="@drawable/dulces2"
-        android:layout_margin="20dp"
-        >
-    </ImageView>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/seleccionCategorias"
-        android:textStyle="bold"
-        android:layout_gravity="center_horizontal"
-        android:textSize="25dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/beige_crema"
         >
 
-    </TextView>
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <LinearLayout
+
+        <ImageView
             android:layout_width="match_parent"
+            android:layout_height="276dp"
+            android:src="@drawable/dulces2"
+            android:layout_margin="20dp"
+            >
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:text="@string/seleccionCategorias"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25dp"
+            >
 
-            <CheckBox
-                android:textSize="18dp"
-                android:layout_marginLeft="20dp"
-                android:id="@+id/checkBoxAltoProteina"
-                android:layout_width="wrap_content"
-                android:layout_height="48dp"
-                android:text="@string/altoProteina"/>
-
-            <CheckBox
-                android:textSize="18dp"
-                android:layout_marginLeft="20dp"
-                android:id="@+id/checkBoxBajoCalorias"
-                android:layout_width="wrap_content"
-                android:layout_height="48dp"
-                android:text="@string/bajoCalorias"/>
-
-            <CheckBox
-                android:textSize="18dp"
-                android:layout_marginLeft="20dp"
-                android:id="@+id/checkBoxSinLactosa"
-                android:layout_width="wrap_content"
-                android:layout_height="48dp"
-                android:text="@string/sinLactosa"/>
-            <CheckBox
-                android:textSize="18dp"
-                android:layout_marginLeft="20dp"
-                android:id="@+id/checkBoxHorneado"
-                android:layout_width="wrap_content"
-                android:layout_height="48dp"
-                android:text="@string/horneado"/>
-            <CheckBox
-                android:textSize="18dp"
-                android:layout_marginLeft="20dp"
-                android:id="@+id/checkBoxVegano"
-                android:layout_width="wrap_content"
-                android:layout_height="48dp"
-                android:text="@string/vegano"/>
-            <CheckBox
-                android:textSize="18dp"
-                android:layout_marginLeft="20dp"
-                android:id="@+id/checkBoxSinGluten"
-                android:layout_width="wrap_content"
-                android:layout_height="48dp"
-                android:text="@string/sinGluten"/>
-            <CheckBox
-                android:textSize="18dp"
-                android:layout_marginLeft="20dp"
-                android:id="@+id/checkBoxFrutas"
-                android:layout_width="wrap_content"
-                android:layout_height="48dp"
-                android:text="@string/frutas"/>
-            <Button
-                android:layout_marginBottom="20dp"
-                android:id="@+id/botonBuscarCategorias"
-                android:textSize="15dp"
-                android:layout_width="wrap_content"
+        </TextView>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:text="@string/botonBuscar"
-                android:textColor="@color/white"
-                android:background="@color/marronGalleta"
-                />
-        </LinearLayout>
-    </ScrollView>
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:textSize="18dp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/checkBoxAltoProteina"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="@string/altoProteina"/>
+
+                <CheckBox
+                    android:textSize="18dp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/checkBoxBajoCalorias"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="@string/bajoCalorias"/>
+
+                <CheckBox
+                    android:textSize="18dp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/checkBoxSinLactosa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="@string/sinLactosa"/>
+                <CheckBox
+                    android:textSize="18dp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/checkBoxHorneado"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="@string/horneado"/>
+                <CheckBox
+                    android:textSize="18dp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/checkBoxVegano"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="@string/vegano"/>
+                <CheckBox
+                    android:textSize="18dp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/checkBoxSinGluten"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="@string/sinGluten"/>
+                <CheckBox
+                    android:textSize="18dp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/checkBoxFrutas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="@string/frutas"/>
+                <Button
+                    android:layout_marginBottom="20dp"
+                    android:id="@+id/botonBuscarCategorias"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/botonBuscar"
+                    android:textColor="@color/white"
+                    android:background="@color/marronGalleta"
+                    />
+            </LinearLayout>
+        </ScrollView>
 
 
-</LinearLayout>
+    </LinearLayout>
+</FrameLayout>

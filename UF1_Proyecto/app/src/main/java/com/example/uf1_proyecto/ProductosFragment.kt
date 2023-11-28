@@ -15,19 +15,7 @@ class ProductosFragment : Fragment() {
     ): View? {
         val view = inflater.inflate(R.layout.fragment_productos, container, false)
 
-        val muffinsLimonArand = view.findViewById<LinearLayout>(R.id.grupoMuffinsLimonAran)
 
-        // Obtener instancia de IngredientesFragment
-        val ingredientsFragment = childFragmentManager.findFragmentByTag("tag_ingredients") as? IngredientesFragment
-
-        // Verificar el estado del CheckBox desde IngredientesFragment
-        val checkBoxState = ingredientsFragment?.getCheckBoxState() ?: false
-
-        if (checkBoxState) {
-            muffinsLimonArand.visibility = View.VISIBLE
-        } else {
-            muffinsLimonArand.visibility = View.GONE
-        }
 
         return view
     }

@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.ActionBar
 import androidx.fragment.app.Fragment
+import androidx.navigation.findNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
@@ -14,19 +15,23 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        findViewById<Button>(R.id.botonIngredientes).setOnClickListener {
-            cambiarFragmento(IngredientesFragment())
+        val botonIngredientes = findViewById<Button>(R.id.botonIngredientes)
+        botonIngredientes.setOnClickListener {
+            val fragment = IngredientesFragment() // Crear una instancia del Fragmento
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.fragment_container, fragment) // Reemplazar R.id.fragment_container con tu contenedor de fragmentos
+
+                .commit()
         }
 
-        // Manejo del botón para el fragmento de Categorías
-        findViewById<Button>(R.id.botonCategorias).setOnClickListener {
-            cambiarFragmento(CategoriaFragment())
+        val botonCategoriaFragment = findViewById<Button>(R.id.botonCategorias)
+        botonCategoriaFragment.setOnClickListener {
+            val fragment = CategoriaFragment() // Crear una instancia del Fragmento
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.fragment_container, fragment) // Reemplazar R.id.fragment_container con tu contenedor de fragmentos
+
+                .commit()
         }
     }
-    private fun cambiarFragmento(fragmento: Fragment) {
-        supportFragmentManager.beginTransaction()
-            .replace(R.id.fragment_container, fragmento)
-            .addToBackStack(null)
-            .commit()
-    }
+
 }

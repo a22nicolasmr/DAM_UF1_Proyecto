@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav"
+    app:startDestination="@id/ingredientesFragment">
+
+    <fragment
+        android:id="@+id/categoriaFragment"
+        android:name="com.example.uf1_proyecto.CategoriaFragment"
+        android:label="CategoriaFragment" >
+        <action
+            android:id="@+id/action_categoriaFragment_to_productosFragment"
+            app:destination="@id/productosFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ingredientesFragment"
+        android:name="com.example.uf1_proyecto.IngredientesFragment"
+        android:label="IngredientesFragment" >
+        <action
+            android:id="@+id/action_ingredientesFragment_to_productosFragment"
+            app:destination="@id/productosFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/productosFragment"
+        android:name="com.example.uf1_proyecto.ProductosFragment"
+        android:label="ProductosFragment" >
+        <action
+            android:id="@+id/action_productosFragment_to_browniesChocoNuecesFragment"
+            app:destination="@id/browniesChocoNuecesFragment" />
+        <action
+            android:id="@+id/action_productosFragment_to_tortaVeganaChocolateVainillaFragment"
+            app:destination="@id/tortaVeganaChocolateVainillaFragment" />
+        <action
+            android:id="@+id/action_productosFragment_to_mousseChocolateVeganoFragment"
+            app:destination="@id/mousseChocolateVeganoFragment" />
+        <action
+            android:id="@+id/action_productosFragment_to_galletasLimonAvenaFragment"
+            app:destination="@id/galletasLimonAvenaFragment" />
+        <action
+            android:id="@+id/action_productosFragment_to_barritasChocolateCacahueteFragment"
+            app:destination="@id/barritasChocolateCacahueteFragment" />
+        <action
+            android:id="@+id/action_productosFragment_to_galletasAvenaPasasFragment"
+            app:destination="@id/galletasAvenaPasasFragment" />
+        <action
+            android:id="@+id/action_productosFragment_to_ensaladaFrutasMielFragment"
+            app:destination="@id/ensaladaFrutasMielFragment" />
+        <action
+            android:id="@+id/action_productosFragment_to_muffinsLimonArandanosFragment"
+            app:destination="@id/muffinsLimonArandanosFragment" />
+        <action
+            android:id="@+id/action_productosFragment_to_tartaLimonFrutosSecosFragment"
+            app:destination="@id/tartaLimonFrutosSecosFragment" />
+        <action
+            android:id="@+id/action_productosFragment_to_galletasFrutosSecosFragment"
+            app:destination="@id/galletasFrutosSecosFragment" />
+        <action
+            android:id="@+id/action_productosFragment_to_mousseLimonAvenaFragment"
+            app:destination="@id/mousseLimonAvenaFragment" />
+        <action
+            android:id="@+id/action_productosFragment_to_muffinsLimonArandanosFragment2"
+            app:destination="@id/muffinsLimonArandanosFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/barritasChocolateCacahueteFragment"
+        android:name="com.example.uf1_proyecto.BarritasChocolateCacahueteFragment"
+        android:label="BarritasChocolateCacahueteFragment" />
+    <fragment
+        android:id="@+id/browniesChocoNuecesFragment"
+        android:name="com.example.uf1_proyecto.BrowniesChocoNuecesFragment"
+        android:label="BrowniesChocoNuecesFragment" />
+    <fragment
+        android:id="@+id/ensaladaFrutasMielFragment"
+        android:name="com.example.uf1_proyecto.EnsaladaFrutasMielFragment"
+        android:label="EnsaladaFrutasMielFragment" />
+    <fragment
+        android:id="@+id/galletasAvenaPasasFragment"
+        android:name="com.example.uf1_proyecto.GalletasAvenaPasasFragment"
+        android:label="GalletasAvenaPasasFragment" />
+    <fragment
+        android:id="@+id/galletasFrutosSecosFragment"
+        android:name="com.example.uf1_proyecto.GalletasFrutosSecosFragment"
+        android:label="GalletasFrutosSecosFragment" />
+    <fragment
+        android:id="@+id/galletasLimonAvenaFragment"
+        android:name="com.example.uf1_proyecto.GalletasLimonAvenaFragment"
+        android:label="GalletasLimonAvenaFragment" />
+    <fragment
+        android:id="@+id/mousseChocolateVeganoFragment"
+        android:name="com.example.uf1_proyecto.MousseChocolateVeganoFragment"
+        android:label="MousseChocolateVeganoFragment" />
+    <fragment
+        android:id="@+id/mousseLimonAvenaFragment"
+        android:name="com.example.uf1_proyecto.MousseLimonAvenaFragment"
+        android:label="MousseLimonAvenaFragment" />
+    <fragment
+        android:id="@+id/muffinsLimonArandanosFragment"
+        android:name="com.example.uf1_proyecto.MuffinsLimonArandanosFragment"
+        android:label="MuffinsLimonArandanosFragment" />
+    <fragment
+        android:id="@+id/tartaLimonFrutosSecosFragment"
+        android:name="com.example.uf1_proyecto.TartaLimonFrutosSecosFragment"
+        android:label="TartaLimonFrutosSecosFragment" />
+    <fragment
+        android:id="@+id/tortaVeganaChocolateVainillaFragment"
+        android:name="com.example.uf1_proyecto.TortaVeganaChocolateVainillaFragment"
+        android:label="TortaVeganaChocolateVainillaFragment" />
+</navigation>
