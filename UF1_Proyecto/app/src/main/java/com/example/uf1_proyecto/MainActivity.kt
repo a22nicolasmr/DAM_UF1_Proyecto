@@ -33,5 +33,20 @@ class MainActivity : AppCompatActivity() {
                 .commit()
         }
     }
+    override fun onBackPressed() {
+        val fragment = supportFragmentManager.findFragmentById(R.id.fragment_container)
+
+        // Si hay fragmentos en la pila
+        if (fragment !is BarritasChocolateCacahueteFragment) {
+            // Realiza la transacción para volver al fragmento anterior (ProductosFragment)
+            val transaction = supportFragmentManager.beginTransaction()
+            transaction.replace(R.id.fragment_container, BarritasChocolateCacahueteFragment())
+            transaction.addToBackStack(null)
+            transaction.commit()
+        } else {
+            // Si es el fragmento BarritasChocolateCacahueteFragment, deja que el comportamiento predeterminado se ejecute (salir de la app)
+            super.onBackPressed()
+        }
+    }
 
 }
