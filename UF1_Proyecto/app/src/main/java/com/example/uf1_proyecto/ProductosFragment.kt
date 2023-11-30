@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.LinearLayout
 
-class ProductosFragment : Fragment() {
+class ProductosFragment : Fragment() ,CategoriaFragment.OnCheckBoxSelectedListener{
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -97,5 +97,12 @@ class ProductosFragment : Fragment() {
                 ?.commit()
         }
         return view
+    }
+     fun onCheckBoxSelected(isChecked: Boolean) {
+        if (isChecked) {
+            layoutAMostrar?.visibility = View.VISIBLE // Mostrar el layout si el CheckBox está seleccionado
+        } else {
+            layoutAMostrar?.visibility = View.GONE // Ocultar el layout si el CheckBox no está seleccionado
+        }
     }
 }

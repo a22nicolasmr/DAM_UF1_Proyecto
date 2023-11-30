@@ -7,6 +7,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.CheckBox
+import android.widget.CompoundButton
+
 
 class CategoriaFragment : Fragment() {
 
@@ -27,6 +30,22 @@ class CategoriaFragment : Fragment() {
 
                 ?.commit()
         }
+
+        val checkBoxProteina=view.findViewById<CheckBox>(R.id.checkBoxAltoProteina)
+        checkBoxProteina?.setOnCheckedChangeListener { _, isChecked ->
+            // Comunicar el estado del CheckBox a la actividad anfitriona o al siguiente fragmento
+            val listener = activity as? OnCheckBoxSelectedListener
+            listener?.onCheckBoxSelected(isChecked)
+        }
+
+        val checkBoxBajoCalorias=view.findViewById<CheckBox>(R.id.checkBoxBajoCalorias)
+        val checkBoxSinLactosa= view.findViewById<CheckBox>(R.id.checkBoxSinLactosa)
+        val checkBoxHorneado=view.findViewById<CheckBox>(R.id.checkBoxHorneado)
+        val checkBoxVegano=view.findViewById<CheckBox>(R.id.checkBoxVegano)
+        val checkBoxSinGluten=view.findViewById<CheckBox>(R.id.checkBoxSinGluten)
+        val checkBoxFrutas=view.findViewById<CheckBox>(R.id.checkBoxFrutas)
+
+
         return  view
     }
 

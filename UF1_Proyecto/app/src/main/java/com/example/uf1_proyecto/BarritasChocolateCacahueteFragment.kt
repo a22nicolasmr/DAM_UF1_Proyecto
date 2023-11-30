@@ -25,10 +25,16 @@ class BarritasChocolateCacahueteFragment : Fragment() {
                     startActivity(intent)
                     true
                 }
+                R.id.flechaBack->{
+                    val intent = Intent(activity, ProductosFragment::class.java)
+                    startActivity(intent)
+                    true
+                }
                 R.id.exit -> {
                     activity?.finish()
                     true
                 }
+
                 else -> false
             }
         }
