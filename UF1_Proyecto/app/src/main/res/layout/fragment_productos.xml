@@ -43,6 +43,7 @@
 
                     <TextView
                         android:id="@+id/textoGalletasFrutosSecos"
+                        android:textStyle="bold"
                         android:layout_marginLeft="20dp"
                         android:layout_width="222dp"
                         android:layout_height="16dp"
@@ -67,6 +68,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_width="222dp"
                         android:layout_height="18dp"
+                        android:textStyle="bold"
                         android:text="@string/tortaChoc" />
                 </LinearLayout>
 
@@ -85,6 +87,7 @@
                         <TextView
                             android:layout_marginLeft="20dp"
                             android:layout_width="222dp"
+                            android:textStyle="bold"
                             android:layout_height="18dp"
                             android:text="@string/muffinsLimonAran" />
                 </LinearLayout>
@@ -103,6 +106,7 @@
                     <TextView
                         android:layout_marginLeft="20dp"
                         android:layout_width="222dp"
+                        android:textStyle="bold"
                         android:layout_height="18dp"
                         android:text="@string/barritasCacahuete" />
                 </LinearLayout>
@@ -123,6 +127,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_width="222dp"
                         android:layout_height="18dp"
+                        android:textStyle="bold"
                         android:text="@string/ensalada" />
                 </LinearLayout>
                 <LinearLayout
@@ -141,6 +146,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_width="222dp"
                         android:layout_height="18dp"
+                        android:textStyle="bold"
                         android:text="@string/tartaLimonFrutos" />
                 </LinearLayout>
                 <LinearLayout
@@ -159,6 +165,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_width="222dp"
                         android:layout_height="18dp"
+                        android:textStyle="bold"
                         android:text="@string/mousseLimonAvena" />
                 </LinearLayout>
                 <LinearLayout
@@ -177,6 +184,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_width="222dp"
                         android:layout_height="18dp"
+                        android:textStyle="bold"
                         android:text="@string/browniesChocNueces" />
                 </LinearLayout>
                 <LinearLayout
@@ -196,6 +204,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_width="222dp"
                         android:layout_height="18dp"
+                        android:textStyle="bold"
                         android:text="@string/galletasLimonAvena" />
                 </LinearLayout>
                 <LinearLayout
@@ -214,6 +223,7 @@
                     <TextView
                         android:layout_marginLeft="20dp"
                         android:layout_width="222dp"
+                        android:textStyle="bold"
                         android:layout_height="18dp"
                         android:text="@string/galletasAvenaPasas" />
                 </LinearLayout>
@@ -235,6 +245,7 @@
                     <TextView
                         android:layout_marginLeft="20dp"
                         android:layout_width="222dp"
+                        android:textStyle="bold"
                         android:layout_height="18dp"
                         android:text="@string/mousseChocVeg" />
 
