@@ -15,7 +15,7 @@ class EnsaladaFrutasMielFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val view = inflater.inflate(R.layout.fragment_barritas_chocolate_cacahuete, container, false)
+        val view = inflater.inflate(R.layout.fragment_ensalada_frutas_miel, container, false)
         // Inflate the layout for this fragment
         val bottomNavigationView = view.findViewById<BottomNavigationView>(R.id.bottom_navigation)
         bottomNavigationView.setOnItemSelectedListener { item ->
