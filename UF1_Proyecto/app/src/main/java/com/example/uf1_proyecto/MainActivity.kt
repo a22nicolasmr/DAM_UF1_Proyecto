@@ -1,13 +1,8 @@
 package com.example.uf1_proyecto
 
-import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import androidx.appcompat.app.ActionBar
-import androidx.fragment.app.Fragment
-
-import com.google.android.material.bottomnavigation.BottomNavigationView
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -37,5 +32,10 @@ class MainActivity : AppCompatActivity() {
         botonSalir.setOnClickListener {
             finish()
         }
+
+    }
+    override fun onBackPressed() {
+        // Llama al método onBackPressed() de la superclase para que se ejecute la acción predeterminada
+        super.onBackPressed()
     }
 }

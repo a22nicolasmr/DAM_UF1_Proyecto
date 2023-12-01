@@ -49,4 +49,5 @@ class CategoriaFragment : Fragment() {
         return this.checkBoxProteina
     }
 
+
 }
