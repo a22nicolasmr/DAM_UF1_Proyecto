@@ -164,17 +164,17 @@
                 android:paddingBottom="4dp" />
 
             <TextView
-                android:paddingEnd="10dp"
+
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/torta_choc_veg_paso_5"
-                android:paddingStart="16dp"
-                android:paddingBottom="4dp" />
+                android:paddingLeft="16dp"
+                android:paddingBottom="4dp"/>
 
             <com.google.android.material.bottomnavigation.BottomNavigationView
                 android:id="@+id/bottom_navigation"
                 android:layout_marginTop="20dp"
-                android:layout_height="60dp"
+                android:layout_height="70dp"
                 android:layout_width="match_parent"
                 android:background="@color/marronGalleta"
                 app:itemIconTint="@color/beige_crema"

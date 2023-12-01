@@ -76,17 +76,17 @@
                     android:orientation="vertical"
                     android:id="@+id/grupoMuffinsLimonAran"
                     >
-                    <ImageView
-                        android:layout_marginTop="20dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_width="222dp"
-                        android:layout_height="150dp"
-                        android:src="@drawable/muffinslimonarand"/>
-                    <TextView
-                        android:layout_marginLeft="20dp"
-                        android:layout_width="222dp"
-                        android:layout_height="18dp"
-                        android:text="@string/muffinsLimonAran" />
+                        <ImageView
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_width="222dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/muffinslimonarand"/>
+                        <TextView
+                            android:layout_marginLeft="20dp"
+                            android:layout_width="222dp"
+                            android:layout_height="18dp"
+                            android:text="@string/muffinsLimonAran" />
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="wrap_content"

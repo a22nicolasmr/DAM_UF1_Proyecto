@@ -12,6 +12,7 @@ import android.widget.CompoundButton
 
 
 class CategoriaFragment : Fragment() {
+    private lateinit var checkBoxProteina: CheckBox
 
 
     override fun onCreateView(
@@ -24,19 +25,15 @@ class CategoriaFragment : Fragment() {
         val botonIngredientes = view.findViewById<Button>(R.id.botonBuscarCategorias)
 
         botonIngredientes.setOnClickListener {
-            val fragment = ProductosFragment() // Crear una instancia del Fragmento
+            val fragment = ProductosFragment()
             activity?.supportFragmentManager?.beginTransaction()
-                ?.replace(R.id.fragment_container3, fragment) // Reemplazar R.id.fragment_container con tu contenedor de fragmentos
+                ?.replace(R.id.fragment_container3, fragment)
 
                 ?.commit()
         }
 
-        val checkBoxProteina=view.findViewById<CheckBox>(R.id.checkBoxAltoProteina)
-        checkBoxProteina?.setOnCheckedChangeListener { _, isChecked ->
-            // Comunicar el estado del CheckBox a la actividad anfitriona o al siguiente fragmento
-            val listener = activity as? OnCheckBoxSelectedListener
-            listener?.onCheckBoxSelected(isChecked)
-        }
+        checkBoxProteina=view.findViewById<CheckBox>(R.id.checkBoxAltoProteina)
+
 
         val checkBoxBajoCalorias=view.findViewById<CheckBox>(R.id.checkBoxBajoCalorias)
         val checkBoxSinLactosa= view.findViewById<CheckBox>(R.id.checkBoxSinLactosa)
@@ -48,6 +45,8 @@ class CategoriaFragment : Fragment() {
 
         return  view
     }
-
+    fun getCheckBoxProteina(): CheckBox {
+        return this.checkBoxProteina
+    }
 
 }

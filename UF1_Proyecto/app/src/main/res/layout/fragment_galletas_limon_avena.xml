@@ -109,6 +109,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/galletas_limon_avena_paso_5"
+                android:layout_marginBottom="10dp"
                 android:paddingLeft="16dp"
                 android:paddingBottom="4dp" />
             <com.google.android.material.bottomnavigation.BottomNavigationView
