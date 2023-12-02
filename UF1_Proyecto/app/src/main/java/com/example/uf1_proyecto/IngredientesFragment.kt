@@ -20,9 +20,9 @@ class IngredientesFragment : Fragment() {
         val botonIngredientes = view.findViewById<Button>(R.id.botonBuscarIngredientes)
 
         botonIngredientes.setOnClickListener {
-            val fragment = ProductosFragment() // Crear una instancia del Fragmento
+            val fragment = ProductosFragment()
             activity?.supportFragmentManager?.beginTransaction()
-                ?.replace(R.id.fragment_container2, fragment) // Reemplazar R.id.fragment_container con tu contenedor de fragmentos
+                ?.replace(R.id.fragment_container2, fragment)
 
                 ?.commit()
         }

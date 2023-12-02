@@ -12,18 +12,18 @@ class MainActivity : AppCompatActivity() {
 
         val botonIngredientes = findViewById<Button>(R.id.botonIngredientes)
         botonIngredientes.setOnClickListener {
-            val fragment = IngredientesFragment() // Crear una instancia del Fragmento
+            val fragment = IngredientesFragment()
             supportFragmentManager.beginTransaction()
-                .replace(R.id.fragment_container, fragment) // Reemplazar R.id.fragment_container con tu contenedor de fragmentos
+                .replace(R.id.fragment_container, fragment)
 
                 .commit()
         }
 
         val botonCategoriaFragment = findViewById<Button>(R.id.botonCategorias)
         botonCategoriaFragment.setOnClickListener {
-            val fragment = CategoriaFragment() // Crear una instancia del Fragmento
+            val fragment = CategoriaFragment()
             supportFragmentManager.beginTransaction()
-                .replace(R.id.fragment_container, fragment) // Reemplazar R.id.fragment_container con tu contenedor de fragmentos
+                .replace(R.id.fragment_container, fragment)
 
                 .commit()
         }
@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
 
     }
     override fun onBackPressed() {
-        // Llama al método onBackPressed() de la superclase para que se ejecute la acción predeterminada
+
         super.onBackPressed()
     }
 }
