@@ -106,16 +106,9 @@ class ProductosFragment : Fragment() {
         }
 
 
-        val layoutCategoria= CategoriaFragment()
-        val checkBoxDeCategoriaFragment = layoutCategoria.getCheckBoxProteina()
-
-        val layoutBarritas = view?.findViewById<LinearLayout>(R.id.grupoBarritaCacahuetesChoc)
-
-        if(checkBoxDeCategoriaFragment.isChecked){
-            layoutBarritas?.visibility = View.VISIBLE
-        }else{
-            layoutBarritas?.visibility = View.GONE
-        }
         return view
+
+
+
     }
 }

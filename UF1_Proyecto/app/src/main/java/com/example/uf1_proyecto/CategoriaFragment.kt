@@ -12,7 +12,7 @@ import android.widget.CompoundButton
 
 
 class CategoriaFragment : Fragment() {
-    private lateinit var checkBoxProteina: CheckBox
+
 
 
     override fun onCreateView(
@@ -32,7 +32,7 @@ class CategoriaFragment : Fragment() {
                 ?.commit()
         }
 
-        checkBoxProteina=view.findViewById<CheckBox>(R.id.checkBoxAltoProteina)
+
 
 
         val checkBoxBajoCalorias=view.findViewById<CheckBox>(R.id.checkBoxBajoCalorias)
@@ -45,9 +45,7 @@ class CategoriaFragment : Fragment() {
 
         return  view
     }
-    fun getCheckBoxProteina(): CheckBox {
-        return this.checkBoxProteina
-    }
+
 
 
 }
