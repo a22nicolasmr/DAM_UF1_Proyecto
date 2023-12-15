@@ -26,8 +26,10 @@ class GalletasAvenaPasasFragment : Fragment() {
                     true
                 }
                 R.id.flechaBack->{
-                    val intent = Intent(activity, ProductosFragment::class.java)
-                    startActivity(intent)
+                        val fragment = ProductosFragment()
+                        activity?.supportFragmentManager?.beginTransaction()
+                            ?.replace(R.id.fragment_container5, fragment)
+                            ?.commit()
                     true
                 }
                 R.id.exit -> {

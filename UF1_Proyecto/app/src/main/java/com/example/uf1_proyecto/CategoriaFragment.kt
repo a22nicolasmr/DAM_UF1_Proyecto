@@ -35,12 +35,6 @@ class CategoriaFragment : Fragment() {
 
 
 
-        val checkBoxBajoCalorias=view.findViewById<CheckBox>(R.id.checkBoxBajoCalorias)
-        val checkBoxSinLactosa= view.findViewById<CheckBox>(R.id.checkBoxSinLactosa)
-        val checkBoxHorneado=view.findViewById<CheckBox>(R.id.checkBoxHorneado)
-        val checkBoxVegano=view.findViewById<CheckBox>(R.id.checkBoxVegano)
-        val checkBoxSinGluten=view.findViewById<CheckBox>(R.id.checkBoxSinGluten)
-        val checkBoxFrutas=view.findViewById<CheckBox>(R.id.checkBoxFrutas)
 
 
         return  view
