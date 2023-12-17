@@ -28,14 +28,7 @@ class MainActivity : AppCompatActivity() {
                 .commit()
         }
 
-        val botonSalir=findViewById<Button>(R.id.botonSalir)
-        botonSalir.setOnClickListener {
-            finish()
-        }
 
-    }
-    override fun onBackPressed() {
 
-        super.onBackPressed()
     }
 }

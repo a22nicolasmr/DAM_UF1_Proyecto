@@ -41,35 +41,29 @@
 
             <Button
                 android:id="@+id/botonIngredientes"
-                android:layout_width="174dp"
+                android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="80dp"
                 android:background="@color/marronGalleta"
                 android:text="@string/botonIngredientes"
+                android:textSize="20dp"
+                android:layout_marginBottom="20dp"
                 android:textColor="@color/beige_crema"></Button>
 
             <Button
                 android:id="@+id/botonCategorias"
-                android:layout_width="174dp"
+
+                android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="20dp"
+                android:textSize="20dp"
                 android:background="@color/marronGalleta"
                 android:text="@string/botonCategorias"
                 android:textColor="@color/beige_crema"></Button>
 
-            <Button
-                android:id="@+id/botonSalir"
-                android:layout_width="wrap_content"
-                android:layout_height="36dp"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="80dp"
-                android:background="@color/red"
-                android:text="@string/botonSalir"
-                android:textColor="@color/white"
 
-                ></Button>
         </LinearLayout>
     </FrameLayout>
 </LinearLayout>

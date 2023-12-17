@@ -16,6 +16,7 @@ class ProductosFragment : Fragment() {
     ): View? {
         val view = inflater.inflate(R.layout.fragment_productos, container, false)
 
+
         val galletasAvena= view.findViewById<LinearLayout>(R.id.grupoGalletasFrutosSecos)
         galletasAvena.setOnClickListener(){
             val fragment = GalletasFrutosSecosFragment()
@@ -105,10 +106,16 @@ class ProductosFragment : Fragment() {
                 ?.commit()
         }
 
+        val browniesChocho= view.findViewById<LinearLayout>(R.id.grupoBrowniesChocNueces)
+        browniesChocho.setOnClickListener(){
+            val fragment = BrowniesChocoNuecesFragment()
+            activity?.supportFragmentManager?.beginTransaction()
+                ?.replace(R.id.fragment_container4, fragment)
 
+                ?.commit()
+        }
         return view
-
-
-
     }
+
+
 }
